@@ -1,0 +1,36 @@
+{
+  "fresh_prediction_seconds": 0.5642510829493403,
+  "fresh_independent_score_seconds": 0.07588383299298584,
+  "fresh_total_seconds": 0.6401349159423262,
+  "numeric_thread_configuration": 1,
+  "evaluation_processes_sequential": true,
+  "os_threads_sampled_this_run": false,
+  "reference_xeon_measured": false,
+  "local_hardware": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "architecture": "arm64",
+    "processor": "arm",
+    "logical_cpus": 10
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "max_child_peak_rss_bytes": 137969664,
+  "asset_uncompressed_bytes": 61839,
+  "asset_disk_bytes": 59360,
+  "timing_scope": "Complete fresh official Test prediction and independent scoring, including startup/imports/data and asset loading, preprocessing and all experts.",
+  "full_train_training": {
+    "local_reproduction_seconds": 5.7946509580360726,
+    "base_fits": 12,
+    "calibrator_fits": 2,
+    "direct_stages": 2,
+    "model_seed": 20261029,
+    "calibration_seed": 20261130,
+    "threads": 1,
+    "device": "CPU"
+  },
+  "limitation": "Local macOS measurements; reference Xeon Platinum 8457C eligibility has not been measured."
+}
