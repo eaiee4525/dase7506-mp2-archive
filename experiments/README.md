@@ -1,0 +1,5 @@
+# Report evidence
+
+The indexed aggregate JSON records support the Report's internal-Dev baselines, training-population and group-feature ablations, three-partition fusion comparisons, and representative negative controls. They retain saved metrics, paired summaries and configuration/resource metadata where available, excluding sample-level data, large arrays and private paths. Source hashes identify the historical records. No new experiment was executed for publication.
+
+The Report describes exploratory historical experiments, not independent confirmations. The three OOF partitions reuse the same questions. Full final-model training and calibration can be reproduced with `train.py`; its source, seeds and exact settings are bundled. Historical development tables are archived experiment evidence, not predictions loaded at inference. Recreating all historical searches is not required to reproduce the delivered final checkpoint or official score; their complete development archives are intentionally not distributed.

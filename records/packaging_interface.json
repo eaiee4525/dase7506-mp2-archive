@@ -1,0 +1,40 @@
+{
+  "native_int_output_shapes": [
+    0,
+    1,
+    7,
+    32,
+    467,
+    798,
+    4755
+  ],
+  "repeat_exact": true,
+  "relative_default_checkpoint": true,
+  "question_reordering_exact": true,
+  "id_renaming_exact": true,
+  "subbatch_selection_exact": true,
+  "synthetic_unseen_duplicate_invalid_single_group": true,
+  "exact_tie_earliest_candidate": true,
+  "no_network_or_non_asset_reads_in_actual_inference": true,
+  "opened_asset_filenames": [
+    "B.npz",
+    "C.npz",
+    "F.npz",
+    "config.json",
+    "decision.npz",
+    "direct.npz",
+    "preprocess.npz"
+  ],
+  "train_prediction_sha256": "32b8ca23d10d02f172b05af6f19d41567c678fd635c3bc3f61f0acb412e7bd44",
+  "input_scope": "Train and synthetic only; no Validation/Test",
+  "package_versions": {
+    "numpy": "2.5.3"
+  },
+  "thread_configuration": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "isolated_source_modules": []
+}

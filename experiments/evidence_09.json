@@ -1,0 +1,1298 @@
+{
+  "P13": {
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4366,
+        "accuracy": 91.81913774973712
+      },
+      "disagreement": {
+        "n": 2114,
+        "correct": 1725,
+        "accuracy": 81.59886471144749
+      },
+      "non_disagreement": {
+        "n": 2641,
+        "correct": 2641,
+        "accuracy": 100.0
+      },
+      "all_four_correct": {
+        "n": 2242,
+        "correct": 2242,
+        "accuracy": 100.0
+      },
+      "zero_correct": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "some_unparseable": {
+        "n": 736,
+        "correct": 666,
+        "accuracy": 90.48913043478261
+      },
+      "multiple_correct_candidates": {
+        "n": 4044,
+        "correct": 3950,
+        "accuracy": 97.675568743818
+      },
+      "selected_unparseable": 0
+    },
+    "folds": [
+      {
+        "overall": {
+          "n": 951,
+          "correct": 869,
+          "accuracy": 91.37749737118823
+        },
+        "disagreement": {
+          "n": 430,
+          "correct": 348,
+          "accuracy": 80.93023255813954
+        },
+        "non_disagreement": {
+          "n": 521,
+          "correct": 521,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 450,
+          "correct": 450,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 137,
+          "correct": 125,
+          "accuracy": 91.24087591240875
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 795,
+          "accuracy": 97.66584766584766
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 860,
+          "accuracy": 90.4311251314406
+        },
+        "disagreement": {
+          "n": 425,
+          "correct": 334,
+          "accuracy": 78.58823529411765
+        },
+        "non_disagreement": {
+          "n": 526,
+          "correct": 526,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 451,
+          "correct": 451,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 139,
+          "correct": 120,
+          "accuracy": 86.33093525179856
+        },
+        "multiple_correct_candidates": {
+          "n": 811,
+          "correct": 788,
+          "accuracy": 97.16399506781751
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 883,
+          "accuracy": 92.84963196635121
+        },
+        "disagreement": {
+          "n": 415,
+          "correct": 347,
+          "accuracy": 83.6144578313253
+        },
+        "non_disagreement": {
+          "n": 536,
+          "correct": 536,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 150,
+          "correct": 143,
+          "accuracy": 95.33333333333333
+        },
+        "multiple_correct_candidates": {
+          "n": 818,
+          "correct": 800,
+          "accuracy": 97.79951100244499
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 873,
+          "accuracy": 91.7981072555205
+        },
+        "disagreement": {
+          "n": 440,
+          "correct": 362,
+          "accuracy": 82.27272727272727
+        },
+        "non_disagreement": {
+          "n": 511,
+          "correct": 511,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 433,
+          "correct": 433,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 151,
+          "correct": 134,
+          "accuracy": 88.74172185430463
+        },
+        "multiple_correct_candidates": {
+          "n": 787,
+          "correct": 771,
+          "accuracy": 97.96696315120711
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 881,
+          "accuracy": 92.63932702418506
+        },
+        "disagreement": {
+          "n": 404,
+          "correct": 334,
+          "accuracy": 82.67326732673267
+        },
+        "non_disagreement": {
+          "n": 547,
+          "correct": 547,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 159,
+          "correct": 144,
+          "accuracy": 90.56603773584905
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 796,
+          "accuracy": 97.78869778869779
+        },
+        "selected_unparseable": 0
+      }
+    ]
+  },
+  "MEAN": {
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4359,
+        "accuracy": 91.67192429022082
+      },
+      "disagreement": {
+        "n": 2114,
+        "correct": 1718,
+        "accuracy": 81.26773888363293
+      },
+      "non_disagreement": {
+        "n": 2641,
+        "correct": 2641,
+        "accuracy": 100.0
+      },
+      "all_four_correct": {
+        "n": 2242,
+        "correct": 2242,
+        "accuracy": 100.0
+      },
+      "zero_correct": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "some_unparseable": {
+        "n": 736,
+        "correct": 657,
+        "accuracy": 89.2663043478261
+      },
+      "multiple_correct_candidates": {
+        "n": 4044,
+        "correct": 3937,
+        "accuracy": 97.35410484668645
+      },
+      "selected_unparseable": 0
+    },
+    "folds": [
+      {
+        "overall": {
+          "n": 951,
+          "correct": 864,
+          "accuracy": 90.85173501577287
+        },
+        "disagreement": {
+          "n": 430,
+          "correct": 343,
+          "accuracy": 79.76744186046511
+        },
+        "non_disagreement": {
+          "n": 521,
+          "correct": 521,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 450,
+          "correct": 450,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 137,
+          "correct": 124,
+          "accuracy": 90.51094890510949
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 788,
+          "accuracy": 96.80589680589681
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 870,
+          "accuracy": 91.4826498422713
+        },
+        "disagreement": {
+          "n": 425,
+          "correct": 344,
+          "accuracy": 80.94117647058823
+        },
+        "non_disagreement": {
+          "n": 526,
+          "correct": 526,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 451,
+          "correct": 451,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 139,
+          "correct": 120,
+          "accuracy": 86.33093525179856
+        },
+        "multiple_correct_candidates": {
+          "n": 811,
+          "correct": 793,
+          "accuracy": 97.78051787916152
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 879,
+          "accuracy": 92.42902208201893
+        },
+        "disagreement": {
+          "n": 415,
+          "correct": 343,
+          "accuracy": 82.65060240963855
+        },
+        "non_disagreement": {
+          "n": 536,
+          "correct": 536,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 150,
+          "correct": 140,
+          "accuracy": 93.33333333333333
+        },
+        "multiple_correct_candidates": {
+          "n": 818,
+          "correct": 795,
+          "accuracy": 97.1882640586797
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 871,
+          "accuracy": 91.58780231335436
+        },
+        "disagreement": {
+          "n": 440,
+          "correct": 360,
+          "accuracy": 81.81818181818181
+        },
+        "non_disagreement": {
+          "n": 511,
+          "correct": 511,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 433,
+          "correct": 433,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 151,
+          "correct": 132,
+          "accuracy": 87.41721854304636
+        },
+        "multiple_correct_candidates": {
+          "n": 787,
+          "correct": 766,
+          "accuracy": 97.33163913595934
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 875,
+          "accuracy": 92.00841219768665
+        },
+        "disagreement": {
+          "n": 404,
+          "correct": 328,
+          "accuracy": 81.18811881188118
+        },
+        "non_disagreement": {
+          "n": 547,
+          "correct": 547,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 159,
+          "correct": 141,
+          "accuracy": 88.67924528301887
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 795,
+          "accuracy": 97.66584766584766
+        },
+        "selected_unparseable": 0
+      }
+    ],
+    "vs_P13": {
+      "overall": {
+        "n": 4755,
+        "both_correct": 4278,
+        "corrected_errors": 81,
+        "introduced_errors": 88,
+        "both_wrong": 308,
+        "net_correct_change": -7,
+        "delta_accuracy_pp": -0.14721345951629863,
+        "mcnemar_exact_p_descriptive": 0.6445422120603311,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.694006309148265,
+          0.3785488958990536
+        ]
+      },
+      "disagreement": {
+        "n": 2114,
+        "both_correct": 1637,
+        "corrected_errors": 81,
+        "introduced_errors": 88,
+        "both_wrong": 308,
+        "net_correct_change": -7,
+        "delta_accuracy_pp": -0.33112582781456956,
+        "mcnemar_exact_p_descriptive": 0.6445422120603311,
+        "bootstrap_95ci_pp_descriptive": [
+          -1.5610217596972564,
+          0.8987701040681173
+        ]
+      },
+      "prediction_index_changes": 198,
+      "parsed_answer_changes": 198,
+      "bootstrap_seed": 20261029,
+      "bootstrap_repetitions": 2000
+    }
+  },
+  "LME": {
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4354,
+        "accuracy": 91.56677181913776
+      },
+      "disagreement": {
+        "n": 2114,
+        "correct": 1713,
+        "accuracy": 81.03122043519394
+      },
+      "non_disagreement": {
+        "n": 2641,
+        "correct": 2641,
+        "accuracy": 100.0
+      },
+      "all_four_correct": {
+        "n": 2242,
+        "correct": 2242,
+        "accuracy": 100.0
+      },
+      "zero_correct": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "some_unparseable": {
+        "n": 736,
+        "correct": 659,
+        "accuracy": 89.53804347826087
+      },
+      "multiple_correct_candidates": {
+        "n": 4044,
+        "correct": 3939,
+        "accuracy": 97.40356083086053
+      },
+      "selected_unparseable": 0
+    },
+    "folds": [
+      {
+        "overall": {
+          "n": 951,
+          "correct": 860,
+          "accuracy": 90.4311251314406
+        },
+        "disagreement": {
+          "n": 430,
+          "correct": 339,
+          "accuracy": 78.83720930232558
+        },
+        "non_disagreement": {
+          "n": 521,
+          "correct": 521,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 450,
+          "correct": 450,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 137,
+          "correct": 124,
+          "accuracy": 90.51094890510949
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 788,
+          "accuracy": 96.80589680589681
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 869,
+          "accuracy": 91.37749737118823
+        },
+        "disagreement": {
+          "n": 425,
+          "correct": 343,
+          "accuracy": 80.70588235294117
+        },
+        "non_disagreement": {
+          "n": 526,
+          "correct": 526,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 451,
+          "correct": 451,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 139,
+          "correct": 120,
+          "accuracy": 86.33093525179856
+        },
+        "multiple_correct_candidates": {
+          "n": 811,
+          "correct": 791,
+          "accuracy": 97.53390875462392
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 877,
+          "accuracy": 92.21871713985279
+        },
+        "disagreement": {
+          "n": 415,
+          "correct": 341,
+          "accuracy": 82.16867469879519
+        },
+        "non_disagreement": {
+          "n": 536,
+          "correct": 536,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 150,
+          "correct": 140,
+          "accuracy": 93.33333333333333
+        },
+        "multiple_correct_candidates": {
+          "n": 818,
+          "correct": 795,
+          "accuracy": 97.1882640586797
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 873,
+          "accuracy": 91.7981072555205
+        },
+        "disagreement": {
+          "n": 440,
+          "correct": 362,
+          "accuracy": 82.27272727272727
+        },
+        "non_disagreement": {
+          "n": 511,
+          "correct": 511,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 433,
+          "correct": 433,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 151,
+          "correct": 133,
+          "accuracy": 88.0794701986755
+        },
+        "multiple_correct_candidates": {
+          "n": 787,
+          "correct": 771,
+          "accuracy": 97.96696315120711
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 875,
+          "accuracy": 92.00841219768665
+        },
+        "disagreement": {
+          "n": 404,
+          "correct": 328,
+          "accuracy": 81.18811881188118
+        },
+        "non_disagreement": {
+          "n": 547,
+          "correct": 547,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 159,
+          "correct": 142,
+          "accuracy": 89.30817610062893
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 794,
+          "accuracy": 97.54299754299754
+        },
+        "selected_unparseable": 0
+      }
+    ],
+    "vs_P13": {
+      "overall": {
+        "n": 4755,
+        "both_correct": 4272,
+        "corrected_errors": 82,
+        "introduced_errors": 94,
+        "both_wrong": 307,
+        "net_correct_change": -12,
+        "delta_accuracy_pp": -0.25236593059936907,
+        "mcnemar_exact_p_descriptive": 0.4070872345039555,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.8201892744479496,
+          0.31545741324921134
+        ]
+      },
+      "disagreement": {
+        "n": 2114,
+        "both_correct": 1631,
+        "corrected_errors": 82,
+        "introduced_errors": 94,
+        "both_wrong": 307,
+        "net_correct_change": -12,
+        "delta_accuracy_pp": -0.5676442762535477,
+        "mcnemar_exact_p_descriptive": 0.4070872345039555,
+        "bootstrap_95ci_pp_descriptive": [
+          -1.7975402081362346,
+          0.6149479659413435
+        ]
+      },
+      "prediction_index_changes": 203,
+      "parsed_answer_changes": 203,
+      "bootstrap_seed": 20261029,
+      "bootstrap_repetitions": 2000
+    }
+  },
+  "P13_MEAN": {
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4371,
+        "accuracy": 91.92429022082018
+      },
+      "disagreement": {
+        "n": 2114,
+        "correct": 1730,
+        "accuracy": 81.83538315988648
+      },
+      "non_disagreement": {
+        "n": 2641,
+        "correct": 2641,
+        "accuracy": 100.0
+      },
+      "all_four_correct": {
+        "n": 2242,
+        "correct": 2242,
+        "accuracy": 100.0
+      },
+      "zero_correct": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "some_unparseable": {
+        "n": 736,
+        "correct": 666,
+        "accuracy": 90.48913043478261
+      },
+      "multiple_correct_candidates": {
+        "n": 4044,
+        "correct": 3951,
+        "accuracy": 97.70029673590504
+      },
+      "selected_unparseable": 0
+    },
+    "folds": [
+      {
+        "overall": {
+          "n": 951,
+          "correct": 866,
+          "accuracy": 91.062039957939
+        },
+        "disagreement": {
+          "n": 430,
+          "correct": 345,
+          "accuracy": 80.23255813953489
+        },
+        "non_disagreement": {
+          "n": 521,
+          "correct": 521,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 450,
+          "correct": 450,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 137,
+          "correct": 126,
+          "accuracy": 91.97080291970804
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 792,
+          "accuracy": 97.29729729729729
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 867,
+          "accuracy": 91.16719242902208
+        },
+        "disagreement": {
+          "n": 425,
+          "correct": 341,
+          "accuracy": 80.23529411764706
+        },
+        "non_disagreement": {
+          "n": 526,
+          "correct": 526,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 451,
+          "correct": 451,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 139,
+          "correct": 120,
+          "accuracy": 86.33093525179856
+        },
+        "multiple_correct_candidates": {
+          "n": 811,
+          "correct": 794,
+          "accuracy": 97.90382244143034
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 880,
+          "accuracy": 92.53417455310199
+        },
+        "disagreement": {
+          "n": 415,
+          "correct": 344,
+          "accuracy": 82.89156626506023
+        },
+        "non_disagreement": {
+          "n": 536,
+          "correct": 536,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 150,
+          "correct": 141,
+          "accuracy": 94.0
+        },
+        "multiple_correct_candidates": {
+          "n": 818,
+          "correct": 798,
+          "accuracy": 97.55501222493888
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 879,
+          "accuracy": 92.42902208201893
+        },
+        "disagreement": {
+          "n": 440,
+          "correct": 368,
+          "accuracy": 83.63636363636364
+        },
+        "non_disagreement": {
+          "n": 511,
+          "correct": 511,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 433,
+          "correct": 433,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 151,
+          "correct": 134,
+          "accuracy": 88.74172185430463
+        },
+        "multiple_correct_candidates": {
+          "n": 787,
+          "correct": 771,
+          "accuracy": 97.96696315120711
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 879,
+          "accuracy": 92.42902208201893
+        },
+        "disagreement": {
+          "n": 404,
+          "correct": 332,
+          "accuracy": 82.17821782178218
+        },
+        "non_disagreement": {
+          "n": 547,
+          "correct": 547,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 159,
+          "correct": 145,
+          "accuracy": 91.19496855345912
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 796,
+          "accuracy": 97.78869778869779
+        },
+        "selected_unparseable": 0
+      }
+    ],
+    "vs_P13": {
+      "overall": {
+        "n": 4755,
+        "both_correct": 4320,
+        "corrected_errors": 51,
+        "introduced_errors": 46,
+        "both_wrong": 338,
+        "net_correct_change": 5,
+        "delta_accuracy_pp": 0.10515247108307045,
+        "mcnemar_exact_p_descriptive": 0.6848587772144034,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.29442691903259727,
+          0.5257623554153523
+        ]
+      },
+      "disagreement": {
+        "n": 2114,
+        "both_correct": 1679,
+        "corrected_errors": 51,
+        "introduced_errors": 46,
+        "both_wrong": 338,
+        "net_correct_change": 5,
+        "delta_accuracy_pp": 0.23651844843897823,
+        "mcnemar_exact_p_descriptive": 0.6848587772144034,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.7095553453169348,
+          1.1352885525070955
+        ]
+      },
+      "prediction_index_changes": 118,
+      "parsed_answer_changes": 118,
+      "bootstrap_seed": 20261029,
+      "bootstrap_repetitions": 2000
+    }
+  },
+  "P13_LME": {
+    "metrics": {
+      "overall": {
+        "n": 4755,
+        "correct": 4378,
+        "accuracy": 92.07150368033649
+      },
+      "disagreement": {
+        "n": 2114,
+        "correct": 1737,
+        "accuracy": 82.16650898770104
+      },
+      "non_disagreement": {
+        "n": 2641,
+        "correct": 2641,
+        "accuracy": 100.0
+      },
+      "all_four_correct": {
+        "n": 2242,
+        "correct": 2242,
+        "accuracy": 100.0
+      },
+      "zero_correct": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null
+      },
+      "some_unparseable": {
+        "n": 736,
+        "correct": 666,
+        "accuracy": 90.48913043478261
+      },
+      "multiple_correct_candidates": {
+        "n": 4044,
+        "correct": 3949,
+        "accuracy": 97.65084075173095
+      },
+      "selected_unparseable": 0
+    },
+    "folds": [
+      {
+        "overall": {
+          "n": 951,
+          "correct": 866,
+          "accuracy": 91.062039957939
+        },
+        "disagreement": {
+          "n": 430,
+          "correct": 345,
+          "accuracy": 80.23255813953489
+        },
+        "non_disagreement": {
+          "n": 521,
+          "correct": 521,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 450,
+          "correct": 450,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 137,
+          "correct": 125,
+          "accuracy": 91.24087591240875
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 792,
+          "accuracy": 97.29729729729729
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 870,
+          "accuracy": 91.4826498422713
+        },
+        "disagreement": {
+          "n": 425,
+          "correct": 344,
+          "accuracy": 80.94117647058823
+        },
+        "non_disagreement": {
+          "n": 526,
+          "correct": 526,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 451,
+          "correct": 451,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 139,
+          "correct": 120,
+          "accuracy": 86.33093525179856
+        },
+        "multiple_correct_candidates": {
+          "n": 811,
+          "correct": 793,
+          "accuracy": 97.78051787916152
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 880,
+          "accuracy": 92.53417455310199
+        },
+        "disagreement": {
+          "n": 415,
+          "correct": 344,
+          "accuracy": 82.89156626506023
+        },
+        "non_disagreement": {
+          "n": 536,
+          "correct": 536,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 150,
+          "correct": 141,
+          "accuracy": 94.0
+        },
+        "multiple_correct_candidates": {
+          "n": 818,
+          "correct": 798,
+          "accuracy": 97.55501222493888
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 883,
+          "accuracy": 92.84963196635121
+        },
+        "disagreement": {
+          "n": 440,
+          "correct": 372,
+          "accuracy": 84.54545454545455
+        },
+        "non_disagreement": {
+          "n": 511,
+          "correct": 511,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 433,
+          "correct": 433,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 151,
+          "correct": 136,
+          "accuracy": 90.06622516556291
+        },
+        "multiple_correct_candidates": {
+          "n": 787,
+          "correct": 773,
+          "accuracy": 98.22109275730622
+        },
+        "selected_unparseable": 0
+      },
+      {
+        "overall": {
+          "n": 951,
+          "correct": 879,
+          "accuracy": 92.42902208201893
+        },
+        "disagreement": {
+          "n": 404,
+          "correct": 332,
+          "accuracy": 82.17821782178218
+        },
+        "non_disagreement": {
+          "n": 547,
+          "correct": 547,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 454,
+          "correct": 454,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 159,
+          "correct": 144,
+          "accuracy": 90.56603773584905
+        },
+        "multiple_correct_candidates": {
+          "n": 814,
+          "correct": 793,
+          "accuracy": 97.42014742014742
+        },
+        "selected_unparseable": 0
+      }
+    ],
+    "vs_P13": {
+      "overall": {
+        "n": 4755,
+        "both_correct": 4317,
+        "corrected_errors": 61,
+        "introduced_errors": 49,
+        "both_wrong": 328,
+        "net_correct_change": 12,
+        "delta_accuracy_pp": 0.25236593059936907,
+        "mcnemar_exact_p_descriptive": 0.2942337084442914,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.1892744479495268,
+          0.6735015772870633
+        ]
+      },
+      "disagreement": {
+        "n": 2114,
+        "both_correct": 1676,
+        "corrected_errors": 61,
+        "introduced_errors": 49,
+        "both_wrong": 328,
+        "net_correct_change": 12,
+        "delta_accuracy_pp": 0.5676442762535477,
+        "mcnemar_exact_p_descriptive": 0.2942337084442914,
+        "bootstrap_95ci_pp_descriptive": [
+          -0.4269157994323557,
+          1.5137180700094608
+        ]
+      },
+      "prediction_index_changes": 132,
+      "parsed_answer_changes": 132,
+      "bootstrap_seed": 20261029,
+      "bootstrap_repetitions": 2000
+    }
+  }
+}

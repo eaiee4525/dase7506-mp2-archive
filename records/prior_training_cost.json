@@ -1,0 +1,28 @@
+{
+  "scope": "Earlier fixed-protocol engineering reproduction, not a run in this packaging batch",
+  "seconds": 5.7946509580360726,
+  "base_fits": 12,
+  "calibrator_fits": 2,
+  "direct_stages": {
+    "mean": {
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 75,
+      "objective": 0.3452482713163277,
+      "max_gradient": 3.084857751400885e-06
+    },
+    "lme": {
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 61,
+      "objective": 0.3410170603051199,
+      "max_gradient": 6.001708908633238e-07
+    }
+  },
+  "numeric_threads": 1,
+  "device": "CPU, local macOS arm64",
+  "train_accuracy_computed": false,
+  "all_exported_arrays_bitwise_reproduced": true,
+  "new_packaging_training_fits": 0,
+  "original_training_complete_sha256": "4e3d5fa24c57179781d3998fe2505db842b1e98c19f3f2cd5307ff904c17119e"
+}

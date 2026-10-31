@@ -1,0 +1,51 @@
+{
+  "candidate": "fixed Phase14",
+  "metrics": {
+    "overall": {
+      "correct": 746,
+      "n": 798,
+      "accuracy": 93.48370927318295,
+      "wilson_95ci_percent": [
+        91.55440169355099,
+        94.99637369547645
+      ]
+    },
+    "disagreement": {
+      "correct": 303,
+      "n": 355,
+      "accuracy": 85.35211267605634,
+      "wilson_95ci_percent": [
+        81.29573770117324,
+        88.65158689863551
+      ]
+    },
+    "non_disagreement": {
+      "correct": 443,
+      "n": 443,
+      "accuracy": 100.0,
+      "wilson_95ci_percent": [
+        99.14030832527658,
+        99.99999999999997
+      ]
+    },
+    "selected_invalid": 0
+  },
+  "comparison_to_backup": {
+    "n": 355,
+    "both_correct": 293,
+    "both_wrong": 45,
+    "A_wrong_B_right": 10,
+    "A_right_B_wrong": 7,
+    "net_correct_B_minus_A": 3,
+    "delta_accuracy_pp": 0.8450704225352113,
+    "exact_two_sided_mcnemar_p": 0.629058837890625,
+    "paired_bootstrap_95ci_pp": [
+      -1.408450704225352,
+      3.0985915492957745
+    ],
+    "bootstrap_seed": 20261030,
+    "resamples": 20000
+  },
+  "caveat": "One finite, historically exposed Validation bank; question independence/exchangeability is an assumption. Intervals describe fixed predictions, not future Test guarantees.",
+  "new_evaluation_this_packaging": false
+}

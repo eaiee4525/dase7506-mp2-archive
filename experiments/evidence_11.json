@@ -1,0 +1,4071 @@
+{
+  "methods": {
+    "A_candidate": {
+      "metrics": {
+        "overall": {
+          "n": 4755,
+          "correct": 3913,
+          "accuracy": 82.29232386961094
+        },
+        "disagreement": {
+          "n": 2114,
+          "correct": 1272,
+          "accuracy": 60.17029328287607
+        },
+        "non_disagreement": {
+          "n": 2641,
+          "correct": 2641,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 2242,
+          "correct": 2242,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 736,
+          "correct": 600,
+          "accuracy": 81.52173913043478
+        },
+        "multiple_correct_candidates": {
+          "n": 4044,
+          "correct": 3535,
+          "accuracy": 87.41345202769536
+        },
+        "selected_unparseable": 0
+      },
+      "folds": [
+        {
+          "overall": {
+            "n": 951,
+            "correct": 790,
+            "accuracy": 83.07045215562566
+          },
+          "disagreement": {
+            "n": 395,
+            "correct": 234,
+            "accuracy": 59.24050632911393
+          },
+          "non_disagreement": {
+            "n": 556,
+            "correct": 556,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 479,
+            "correct": 479,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 114,
+            "accuracy": 78.08219178082192
+          },
+          "multiple_correct_candidates": {
+            "n": 819,
+            "correct": 724,
+            "accuracy": 88.4004884004884
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 777,
+            "accuracy": 81.70347003154573
+          },
+          "disagreement": {
+            "n": 452,
+            "correct": 278,
+            "accuracy": 61.50442477876106
+          },
+          "non_disagreement": {
+            "n": 499,
+            "correct": 499,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 420,
+            "correct": 420,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 143,
+            "correct": 123,
+            "accuracy": 86.01398601398601
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 695,
+            "accuracy": 86.76654182272159
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 784,
+            "accuracy": 82.43953732912723
+          },
+          "disagreement": {
+            "n": 410,
+            "correct": 243,
+            "accuracy": 59.26829268292683
+          },
+          "non_disagreement": {
+            "n": 541,
+            "correct": 541,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 150,
+            "correct": 119,
+            "accuracy": 79.33333333333333
+          },
+          "multiple_correct_candidates": {
+            "n": 807,
+            "correct": 710,
+            "accuracy": 87.98017348203221
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 781,
+            "accuracy": 82.12407991587803
+          },
+          "disagreement": {
+            "n": 434,
+            "correct": 264,
+            "accuracy": 60.8294930875576
+          },
+          "non_disagreement": {
+            "n": 517,
+            "correct": 517,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 425,
+            "correct": 425,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 151,
+            "correct": 129,
+            "accuracy": 85.43046357615894
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 697,
+            "accuracy": 87.01622971285893
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 781,
+            "accuracy": 82.12407991587803
+          },
+          "disagreement": {
+            "n": 423,
+            "correct": 253,
+            "accuracy": 59.810874704491724
+          },
+          "non_disagreement": {
+            "n": 528,
+            "correct": 528,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 115,
+            "accuracy": 78.76712328767124
+          },
+          "multiple_correct_candidates": {
+            "n": 816,
+            "correct": 709,
+            "accuracy": 86.88725490196079
+          },
+          "selected_unparseable": 0
+        }
+      ],
+      "training": [
+        {
+          "outer": 0,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3133,
+              "accuracy": 82.36067297581494
+            },
+            "disagreement": {
+              "n": 1719,
+              "correct": 1048,
+              "accuracy": 60.96567771960442
+            },
+            "non_disagreement": {
+              "n": 2085,
+              "correct": 2085,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1763,
+              "correct": 1763,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 485,
+              "accuracy": 82.20338983050847
+            },
+            "multiple_correct_candidates": {
+              "n": 3225,
+              "correct": 2818,
+              "accuracy": 87.37984496124031
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.7251713904904946
+        },
+        {
+          "outer": 1,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3165,
+              "accuracy": 83.2018927444795
+            },
+            "disagreement": {
+              "n": 1662,
+              "correct": 1023,
+              "accuracy": 61.55234657039711
+            },
+            "non_disagreement": {
+              "n": 2142,
+              "correct": 2142,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1822,
+              "correct": 1822,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 593,
+              "correct": 477,
+              "accuracy": 80.43844856661046
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 2861,
+              "accuracy": 88.22078322540857
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 0.047921791636049704
+        },
+        {
+          "outer": 2,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3120,
+              "accuracy": 82.01892744479495
+            },
+            "disagreement": {
+              "n": 1704,
+              "correct": 1020,
+              "accuracy": 59.859154929577464
+            },
+            "non_disagreement": {
+              "n": 2100,
+              "correct": 2100,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 586,
+              "correct": 475,
+              "accuracy": 81.0580204778157
+            },
+            "multiple_correct_candidates": {
+              "n": 3237,
+              "correct": 2823,
+              "accuracy": 87.21037998146431
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 0.5908622466506372
+        },
+        {
+          "outer": 3,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3152,
+              "accuracy": 82.86014721345951
+            },
+            "disagreement": {
+              "n": 1680,
+              "correct": 1028,
+              "accuracy": 61.19047619047619
+            },
+            "non_disagreement": {
+              "n": 2124,
+              "correct": 2124,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1817,
+              "correct": 1817,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 585,
+              "correct": 476,
+              "accuracy": 81.36752136752136
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 2853,
+              "accuracy": 87.9740980573543
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 0.36098310291858837
+        },
+        {
+          "outer": 4,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3143,
+              "accuracy": 82.6235541535226
+            },
+            "disagreement": {
+              "n": 1691,
+              "correct": 1030,
+              "accuracy": 60.91070372560615
+            },
+            "non_disagreement": {
+              "n": 2113,
+              "correct": 2113,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 486,
+              "accuracy": 82.37288135593221
+            },
+            "multiple_correct_candidates": {
+              "n": 3228,
+              "correct": 2834,
+              "accuracy": 87.79429987608427
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.0998290211144237
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "overall": {
+            "n": 988,
+            "correct": 594,
+            "accuracy": 60.121457489878544
+          },
+          "disagreement": {
+            "n": 988,
+            "correct": 594,
+            "accuracy": 60.121457489878544
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 113,
+            "correct": 73,
+            "accuracy": 64.60176991150442
+          },
+          "multiple_correct_candidates": {
+            "n": 723,
+            "correct": 467,
+            "accuracy": 64.59197786998617
+          },
+          "selected_unparseable": 0
+        },
+        "no_relation_group_distinction": {
+          "overall": {
+            "n": 3767,
+            "correct": 3319,
+            "accuracy": 88.10724714627024
+          },
+          "disagreement": {
+            "n": 1126,
+            "correct": 678,
+            "accuracy": 60.213143872113676
+          },
+          "non_disagreement": {
+            "n": 2641,
+            "correct": 2641,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 2242,
+            "correct": 2242,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 623,
+            "correct": 527,
+            "accuracy": 84.59069020866774
+          },
+          "multiple_correct_candidates": {
+            "n": 3321,
+            "correct": 3068,
+            "accuracy": 92.38181270701595
+          },
+          "selected_unparseable": 0
+        },
+        "cross_final_shared_step": {
+          "overall": {
+            "n": 695,
+            "correct": 380,
+            "accuracy": 54.67625899280576
+          },
+          "disagreement": {
+            "n": 695,
+            "correct": 380,
+            "accuracy": 54.67625899280576
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 94,
+            "correct": 58,
+            "accuracy": 61.702127659574465
+          },
+          "multiple_correct_candidates": {
+            "n": 453,
+            "correct": 253,
+            "accuracy": 55.849889624724064
+          },
+          "selected_unparseable": 0
+        }
+      },
+      "mean_train_minus_oof_disagreement_pp": 0.7649535105620388
+    },
+    "B_final_structure": {
+      "metrics": {
+        "overall": {
+          "n": 4755,
+          "correct": 4166,
+          "accuracy": 87.6130389064143
+        },
+        "disagreement": {
+          "n": 2114,
+          "correct": 1525,
+          "accuracy": 72.13812677388836
+        },
+        "non_disagreement": {
+          "n": 2641,
+          "correct": 2641,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 2242,
+          "correct": 2242,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 736,
+          "correct": 614,
+          "accuracy": 83.42391304347827
+        },
+        "multiple_correct_candidates": {
+          "n": 4044,
+          "correct": 3983,
+          "accuracy": 98.49159248269041
+        },
+        "selected_unparseable": 0
+      },
+      "folds": [
+        {
+          "overall": {
+            "n": 951,
+            "correct": 840,
+            "accuracy": 88.32807570977918
+          },
+          "disagreement": {
+            "n": 395,
+            "correct": 284,
+            "accuracy": 71.89873417721519
+          },
+          "non_disagreement": {
+            "n": 556,
+            "correct": 556,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 479,
+            "correct": 479,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 122,
+            "accuracy": 83.56164383561644
+          },
+          "multiple_correct_candidates": {
+            "n": 819,
+            "correct": 806,
+            "accuracy": 98.41269841269842
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 826,
+            "accuracy": 86.85594111461619
+          },
+          "disagreement": {
+            "n": 452,
+            "correct": 327,
+            "accuracy": 72.34513274336283
+          },
+          "non_disagreement": {
+            "n": 499,
+            "correct": 499,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 420,
+            "correct": 420,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 143,
+            "correct": 114,
+            "accuracy": 79.72027972027972
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 792,
+            "accuracy": 98.87640449438203
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 834,
+            "accuracy": 87.69716088328076
+          },
+          "disagreement": {
+            "n": 410,
+            "correct": 293,
+            "accuracy": 71.46341463414635
+          },
+          "non_disagreement": {
+            "n": 541,
+            "correct": 541,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 150,
+            "correct": 127,
+            "accuracy": 84.66666666666667
+          },
+          "multiple_correct_candidates": {
+            "n": 807,
+            "correct": 803,
+            "accuracy": 99.50433705080545
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 824,
+            "accuracy": 86.64563617245005
+          },
+          "disagreement": {
+            "n": 434,
+            "correct": 307,
+            "accuracy": 70.73732718894009
+          },
+          "non_disagreement": {
+            "n": 517,
+            "correct": 517,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 425,
+            "correct": 425,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 151,
+            "correct": 129,
+            "accuracy": 85.43046357615894
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 783,
+            "accuracy": 97.75280898876404
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 842,
+            "accuracy": 88.53838065194532
+          },
+          "disagreement": {
+            "n": 423,
+            "correct": 314,
+            "accuracy": 74.23167848699764
+          },
+          "non_disagreement": {
+            "n": 528,
+            "correct": 528,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 122,
+            "accuracy": 83.56164383561644
+          },
+          "multiple_correct_candidates": {
+            "n": 816,
+            "correct": 799,
+            "accuracy": 97.91666666666667
+          },
+          "selected_unparseable": 0
+        }
+      ],
+      "training": [
+        {
+          "outer": 0,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3331,
+              "accuracy": 87.56572029442692
+            },
+            "disagreement": {
+              "n": 1719,
+              "correct": 1246,
+              "accuracy": 72.48400232693426
+            },
+            "non_disagreement": {
+              "n": 2085,
+              "correct": 2085,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1763,
+              "correct": 1763,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 492,
+              "accuracy": 83.38983050847457
+            },
+            "multiple_correct_candidates": {
+              "n": 3225,
+              "correct": 3180,
+              "accuracy": 98.6046511627907
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 0.5852681497190702
+        },
+        {
+          "outer": 1,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3346,
+              "accuracy": 87.96004206098843
+            },
+            "disagreement": {
+              "n": 1662,
+              "correct": 1204,
+              "accuracy": 72.44283995186522
+            },
+            "non_disagreement": {
+              "n": 2142,
+              "correct": 2142,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1822,
+              "correct": 1822,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 593,
+              "correct": 501,
+              "accuracy": 84.48566610455312
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3195,
+              "accuracy": 98.51988899167438
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 0.09770720850239911
+        },
+        {
+          "outer": 2,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3345,
+              "accuracy": 87.93375394321767
+            },
+            "disagreement": {
+              "n": 1704,
+              "correct": 1245,
+              "accuracy": 73.06338028169014
+            },
+            "non_disagreement": {
+              "n": 2100,
+              "correct": 2100,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 586,
+              "correct": 489,
+              "accuracy": 83.44709897610922
+            },
+            "multiple_correct_candidates": {
+              "n": 3237,
+              "correct": 3188,
+              "accuracy": 98.48625270312017
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.5999656475437973
+        },
+        {
+          "outer": 3,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3342,
+              "accuracy": 87.85488958990537
+            },
+            "disagreement": {
+              "n": 1680,
+              "correct": 1218,
+              "accuracy": 72.5
+            },
+            "non_disagreement": {
+              "n": 2124,
+              "correct": 2124,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1817,
+              "correct": 1817,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 585,
+              "correct": 487,
+              "accuracy": 83.24786324786325
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3198,
+              "accuracy": 98.61239592969473
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.7626728110599146
+        },
+        {
+          "outer": 4,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3327,
+              "accuracy": 87.46056782334385
+            },
+            "disagreement": {
+              "n": 1691,
+              "correct": 1214,
+              "accuracy": 71.79183914843289
+            },
+            "non_disagreement": {
+              "n": 2113,
+              "correct": 2113,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 491,
+              "accuracy": 83.22033898305085
+            },
+            "multiple_correct_candidates": {
+              "n": 3228,
+              "correct": 3185,
+              "accuracy": 98.66790582403965
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": -2.4398393385647523
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "overall": {
+            "n": 988,
+            "correct": 743,
+            "accuracy": 75.20242914979757
+          },
+          "disagreement": {
+            "n": 988,
+            "correct": 743,
+            "accuracy": 75.20242914979757
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 113,
+            "correct": 84,
+            "accuracy": 74.33628318584071
+          },
+          "multiple_correct_candidates": {
+            "n": 723,
+            "correct": 693,
+            "accuracy": 95.850622406639
+          },
+          "selected_unparseable": 0
+        },
+        "no_relation_group_distinction": {
+          "overall": {
+            "n": 3767,
+            "correct": 3423,
+            "accuracy": 90.86806477302893
+          },
+          "disagreement": {
+            "n": 1126,
+            "correct": 782,
+            "accuracy": 69.44937833037301
+          },
+          "non_disagreement": {
+            "n": 2641,
+            "correct": 2641,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 2242,
+            "correct": 2242,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 623,
+            "correct": 530,
+            "accuracy": 85.07223113964687
+          },
+          "multiple_correct_candidates": {
+            "n": 3321,
+            "correct": 3290,
+            "accuracy": 99.06654622101776
+          },
+          "selected_unparseable": 0
+        },
+        "cross_final_shared_step": {
+          "overall": {
+            "n": 695,
+            "correct": 490,
+            "accuracy": 70.50359712230215
+          },
+          "disagreement": {
+            "n": 695,
+            "correct": 490,
+            "accuracy": 70.50359712230215
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 94,
+            "correct": 66,
+            "accuracy": 70.2127659574468
+          },
+          "multiple_correct_candidates": {
+            "n": 453,
+            "correct": 428,
+            "accuracy": 94.4812362030905
+          },
+          "selected_unparseable": 0
+        }
+      },
+      "mean_train_minus_oof_disagreement_pp": 0.32115489565208577
+    },
+    "C_real_relations": {
+      "metrics": {
+        "overall": {
+          "n": 4755,
+          "correct": 4163,
+          "accuracy": 87.54994742376446
+        },
+        "disagreement": {
+          "n": 2114,
+          "correct": 1522,
+          "accuracy": 71.99621570482498
+        },
+        "non_disagreement": {
+          "n": 2641,
+          "correct": 2641,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 2242,
+          "correct": 2242,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 736,
+          "correct": 613,
+          "accuracy": 83.28804347826087
+        },
+        "multiple_correct_candidates": {
+          "n": 4044,
+          "correct": 3987,
+          "accuracy": 98.59050445103857
+        },
+        "selected_unparseable": 0
+      },
+      "folds": [
+        {
+          "overall": {
+            "n": 951,
+            "correct": 836,
+            "accuracy": 87.90746582544689
+          },
+          "disagreement": {
+            "n": 395,
+            "correct": 280,
+            "accuracy": 70.88607594936708
+          },
+          "non_disagreement": {
+            "n": 556,
+            "correct": 556,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 479,
+            "correct": 479,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 120,
+            "accuracy": 82.1917808219178
+          },
+          "multiple_correct_candidates": {
+            "n": 819,
+            "correct": 806,
+            "accuracy": 98.41269841269842
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 827,
+            "accuracy": 86.96109358569926
+          },
+          "disagreement": {
+            "n": 452,
+            "correct": 328,
+            "accuracy": 72.56637168141593
+          },
+          "non_disagreement": {
+            "n": 499,
+            "correct": 499,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 420,
+            "correct": 420,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 143,
+            "correct": 114,
+            "accuracy": 79.72027972027972
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 793,
+            "accuracy": 99.00124843945069
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 832,
+            "accuracy": 87.48685594111461
+          },
+          "disagreement": {
+            "n": 410,
+            "correct": 291,
+            "accuracy": 70.97560975609755
+          },
+          "non_disagreement": {
+            "n": 541,
+            "correct": 541,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 150,
+            "correct": 127,
+            "accuracy": 84.66666666666667
+          },
+          "multiple_correct_candidates": {
+            "n": 807,
+            "correct": 802,
+            "accuracy": 99.38042131350682
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 826,
+            "accuracy": 86.85594111461619
+          },
+          "disagreement": {
+            "n": 434,
+            "correct": 309,
+            "accuracy": 71.19815668202764
+          },
+          "non_disagreement": {
+            "n": 517,
+            "correct": 517,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 425,
+            "correct": 425,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 151,
+            "correct": 129,
+            "accuracy": 85.43046357615894
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 786,
+            "accuracy": 98.12734082397004
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 842,
+            "accuracy": 88.53838065194532
+          },
+          "disagreement": {
+            "n": 423,
+            "correct": 314,
+            "accuracy": 74.23167848699764
+          },
+          "non_disagreement": {
+            "n": 528,
+            "correct": 528,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 123,
+            "accuracy": 84.24657534246575
+          },
+          "multiple_correct_candidates": {
+            "n": 816,
+            "correct": 800,
+            "accuracy": 98.03921568627452
+          },
+          "selected_unparseable": 0
+        }
+      ],
+      "training": [
+        {
+          "outer": 0,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3333,
+              "accuracy": 87.61829652996846
+            },
+            "disagreement": {
+              "n": 1719,
+              "correct": 1248,
+              "accuracy": 72.60034904013962
+            },
+            "non_disagreement": {
+              "n": 2085,
+              "correct": 2085,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1763,
+              "correct": 1763,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 495,
+              "accuracy": 83.89830508474576
+            },
+            "multiple_correct_candidates": {
+              "n": 3225,
+              "correct": 3184,
+              "accuracy": 98.72868217054264
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.7142730907725365
+        },
+        {
+          "outer": 1,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3338,
+              "accuracy": 87.7497371188223
+            },
+            "disagreement": {
+              "n": 1662,
+              "correct": 1196,
+              "accuracy": 71.96149217809868
+            },
+            "non_disagreement": {
+              "n": 2142,
+              "correct": 2142,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1822,
+              "correct": 1822,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 593,
+              "correct": 499,
+              "accuracy": 84.14839797639124
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3197,
+              "accuracy": 98.58156028368795
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": -0.6048795033172496
+        },
+        {
+          "outer": 2,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3346,
+              "accuracy": 87.96004206098843
+            },
+            "disagreement": {
+              "n": 1704,
+              "correct": 1246,
+              "accuracy": 73.12206572769954
+            },
+            "non_disagreement": {
+              "n": 2100,
+              "correct": 2100,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 586,
+              "correct": 491,
+              "accuracy": 83.78839590443685
+            },
+            "multiple_correct_candidates": {
+              "n": 3237,
+              "correct": 3192,
+              "accuracy": 98.60982391102873
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 2.1464559716019807
+        },
+        {
+          "outer": 3,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3337,
+              "accuracy": 87.72344900105152
+            },
+            "disagreement": {
+              "n": 1680,
+              "correct": 1213,
+              "accuracy": 72.20238095238095
+            },
+            "non_disagreement": {
+              "n": 2124,
+              "correct": 2124,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1817,
+              "correct": 1817,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 585,
+              "correct": 486,
+              "accuracy": 83.07692307692308
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3199,
+              "accuracy": 98.6432315757015
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.0042242703533049
+        },
+        {
+          "outer": 4,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3322,
+              "accuracy": 87.32912723449002
+            },
+            "disagreement": {
+              "n": 1691,
+              "correct": 1209,
+              "accuracy": 71.49615612063867
+            },
+            "non_disagreement": {
+              "n": 2113,
+              "correct": 2113,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 490,
+              "accuracy": 83.05084745762711
+            },
+            "multiple_correct_candidates": {
+              "n": 3228,
+              "correct": 3186,
+              "accuracy": 98.69888475836431
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": -2.735522366358964
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "overall": {
+            "n": 988,
+            "correct": 740,
+            "accuracy": 74.89878542510121
+          },
+          "disagreement": {
+            "n": 988,
+            "correct": 740,
+            "accuracy": 74.89878542510121
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 113,
+            "correct": 84,
+            "accuracy": 74.33628318584071
+          },
+          "multiple_correct_candidates": {
+            "n": 723,
+            "correct": 694,
+            "accuracy": 95.98893499308437
+          },
+          "selected_unparseable": 0
+        },
+        "no_relation_group_distinction": {
+          "overall": {
+            "n": 3767,
+            "correct": 3423,
+            "accuracy": 90.86806477302893
+          },
+          "disagreement": {
+            "n": 1126,
+            "correct": 782,
+            "accuracy": 69.44937833037301
+          },
+          "non_disagreement": {
+            "n": 2641,
+            "correct": 2641,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 2242,
+            "correct": 2242,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 623,
+            "correct": 529,
+            "accuracy": 84.91171749598716
+          },
+          "multiple_correct_candidates": {
+            "n": 3321,
+            "correct": 3293,
+            "accuracy": 99.15688045769346
+          },
+          "selected_unparseable": 0
+        },
+        "cross_final_shared_step": {
+          "overall": {
+            "n": 695,
+            "correct": 487,
+            "accuracy": 70.07194244604317
+          },
+          "disagreement": {
+            "n": 695,
+            "correct": 487,
+            "accuracy": 70.07194244604317
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 94,
+            "correct": 66,
+            "accuracy": 70.2127659574468
+          },
+          "multiple_correct_candidates": {
+            "n": 453,
+            "correct": 429,
+            "accuracy": 94.70198675496688
+          },
+          "selected_unparseable": 0
+        }
+      },
+      "mean_train_minus_oof_disagreement_pp": 0.30491029261032165
+    },
+    "D_mismatched_relations": {
+      "metrics": {
+        "overall": {
+          "n": 4755,
+          "correct": 4152,
+          "accuracy": 87.3186119873817
+        },
+        "disagreement": {
+          "n": 2114,
+          "correct": 1511,
+          "accuracy": 71.47587511825922
+        },
+        "non_disagreement": {
+          "n": 2641,
+          "correct": 2641,
+          "accuracy": 100.0
+        },
+        "all_four_correct": {
+          "n": 2242,
+          "correct": 2242,
+          "accuracy": 100.0
+        },
+        "zero_correct": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null
+        },
+        "some_unparseable": {
+          "n": 736,
+          "correct": 610,
+          "accuracy": 82.8804347826087
+        },
+        "multiple_correct_candidates": {
+          "n": 4044,
+          "correct": 3977,
+          "accuracy": 98.34322453016814
+        },
+        "selected_unparseable": 0
+      },
+      "folds": [
+        {
+          "overall": {
+            "n": 951,
+            "correct": 832,
+            "accuracy": 87.48685594111461
+          },
+          "disagreement": {
+            "n": 395,
+            "correct": 276,
+            "accuracy": 69.87341772151899
+          },
+          "non_disagreement": {
+            "n": 556,
+            "correct": 556,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 479,
+            "correct": 479,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 120,
+            "accuracy": 82.1917808219178
+          },
+          "multiple_correct_candidates": {
+            "n": 819,
+            "correct": 804,
+            "accuracy": 98.16849816849818
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 826,
+            "accuracy": 86.85594111461619
+          },
+          "disagreement": {
+            "n": 452,
+            "correct": 327,
+            "accuracy": 72.34513274336283
+          },
+          "non_disagreement": {
+            "n": 499,
+            "correct": 499,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 420,
+            "correct": 420,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 143,
+            "correct": 114,
+            "accuracy": 79.72027972027972
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 792,
+            "accuracy": 98.87640449438203
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 833,
+            "accuracy": 87.59200841219769
+          },
+          "disagreement": {
+            "n": 410,
+            "correct": 292,
+            "accuracy": 71.21951219512195
+          },
+          "non_disagreement": {
+            "n": 541,
+            "correct": 541,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 150,
+            "correct": 126,
+            "accuracy": 84.0
+          },
+          "multiple_correct_candidates": {
+            "n": 807,
+            "correct": 801,
+            "accuracy": 99.25650557620818
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 824,
+            "accuracy": 86.64563617245005
+          },
+          "disagreement": {
+            "n": 434,
+            "correct": 307,
+            "accuracy": 70.73732718894009
+          },
+          "non_disagreement": {
+            "n": 517,
+            "correct": 517,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 425,
+            "correct": 425,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 151,
+            "correct": 128,
+            "accuracy": 84.76821192052981
+          },
+          "multiple_correct_candidates": {
+            "n": 801,
+            "correct": 784,
+            "accuracy": 97.8776529338327
+          },
+          "selected_unparseable": 0
+        },
+        {
+          "overall": {
+            "n": 951,
+            "correct": 837,
+            "accuracy": 88.01261829652996
+          },
+          "disagreement": {
+            "n": 423,
+            "correct": 309,
+            "accuracy": 73.04964539007092
+          },
+          "non_disagreement": {
+            "n": 528,
+            "correct": 528,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 459,
+            "correct": 459,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 146,
+            "correct": 122,
+            "accuracy": 83.56164383561644
+          },
+          "multiple_correct_candidates": {
+            "n": 816,
+            "correct": 796,
+            "accuracy": 97.54901960784314
+          },
+          "selected_unparseable": 0
+        }
+      ],
+      "training": [
+        {
+          "outer": 0,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3332,
+              "accuracy": 87.59200841219769
+            },
+            "disagreement": {
+              "n": 1719,
+              "correct": 1247,
+              "accuracy": 72.54217568353694
+            },
+            "non_disagreement": {
+              "n": 2085,
+              "correct": 2085,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1763,
+              "correct": 1763,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 491,
+              "accuracy": 83.22033898305085
+            },
+            "multiple_correct_candidates": {
+              "n": 3225,
+              "correct": 3179,
+              "accuracy": 98.57364341085271
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 2.668757962017949
+        },
+        {
+          "outer": 1,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3341,
+              "accuracy": 87.8286014721346
+            },
+            "disagreement": {
+              "n": 1662,
+              "correct": 1199,
+              "accuracy": 72.14199759326114
+            },
+            "non_disagreement": {
+              "n": 2142,
+              "correct": 2142,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1822,
+              "correct": 1822,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 593,
+              "correct": 496,
+              "accuracy": 83.6424957841484
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3195,
+              "accuracy": 98.51988899167438
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": -0.20313515010168715
+        },
+        {
+          "outer": 2,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3333,
+              "accuracy": 87.61829652996846
+            },
+            "disagreement": {
+              "n": 1704,
+              "correct": 1233,
+              "accuracy": 72.35915492957747
+            },
+            "non_disagreement": {
+              "n": 2100,
+              "correct": 2100,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 586,
+              "correct": 485,
+              "accuracy": 82.76450511945393
+            },
+            "multiple_correct_candidates": {
+              "n": 3237,
+              "correct": 3184,
+              "accuracy": 98.36268149521162
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.1396427344555207
+        },
+        {
+          "outer": 3,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3334,
+              "accuracy": 87.64458464773922
+            },
+            "disagreement": {
+              "n": 1680,
+              "correct": 1210,
+              "accuracy": 72.02380952380952
+            },
+            "non_disagreement": {
+              "n": 2124,
+              "correct": 2124,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1817,
+              "correct": 1817,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 585,
+              "correct": 482,
+              "accuracy": 82.3931623931624
+            },
+            "multiple_correct_candidates": {
+              "n": 3243,
+              "correct": 3197,
+              "accuracy": 98.58156028368795
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": 1.286482334869433
+        },
+        {
+          "outer": 4,
+          "metrics": {
+            "overall": {
+              "n": 3804,
+              "correct": 3329,
+              "accuracy": 87.51314405888539
+            },
+            "disagreement": {
+              "n": 1691,
+              "correct": 1216,
+              "accuracy": 71.91011235955057
+            },
+            "non_disagreement": {
+              "n": 2113,
+              "correct": 2113,
+              "accuracy": 100.0
+            },
+            "all_four_correct": {
+              "n": 1783,
+              "correct": 1783,
+              "accuracy": 100.0
+            },
+            "zero_correct": {
+              "n": 0,
+              "correct": 0,
+              "accuracy": null
+            },
+            "some_unparseable": {
+              "n": 590,
+              "correct": 489,
+              "accuracy": 82.88135593220339
+            },
+            "multiple_correct_candidates": {
+              "n": 3228,
+              "correct": 3186,
+              "accuracy": 98.69888475836431
+            },
+            "selected_unparseable": 0
+          },
+          "train_minus_oof_disagreement_pp": -1.1395330305203544
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "overall": {
+            "n": 988,
+            "correct": 732,
+            "accuracy": 74.08906882591093
+          },
+          "disagreement": {
+            "n": 988,
+            "correct": 732,
+            "accuracy": 74.08906882591093
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 113,
+            "correct": 81,
+            "accuracy": 71.68141592920354
+          },
+          "multiple_correct_candidates": {
+            "n": 723,
+            "correct": 688,
+            "accuracy": 95.15905947441217
+          },
+          "selected_unparseable": 0
+        },
+        "no_relation_group_distinction": {
+          "overall": {
+            "n": 3767,
+            "correct": 3420,
+            "accuracy": 90.78842580302629
+          },
+          "disagreement": {
+            "n": 1126,
+            "correct": 779,
+            "accuracy": 69.1829484902309
+          },
+          "non_disagreement": {
+            "n": 2641,
+            "correct": 2641,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 2242,
+            "correct": 2242,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 623,
+            "correct": 529,
+            "accuracy": 84.91171749598716
+          },
+          "multiple_correct_candidates": {
+            "n": 3321,
+            "correct": 3289,
+            "accuracy": 99.03643480879254
+          },
+          "selected_unparseable": 0
+        },
+        "cross_final_shared_step": {
+          "overall": {
+            "n": 695,
+            "correct": 481,
+            "accuracy": 69.20863309352518
+          },
+          "disagreement": {
+            "n": 695,
+            "correct": 481,
+            "accuracy": 69.20863309352518
+          },
+          "non_disagreement": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "all_four_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 94,
+            "correct": 63,
+            "accuracy": 67.02127659574468
+          },
+          "multiple_correct_candidates": {
+            "n": 453,
+            "correct": 425,
+            "accuracy": 93.81898454746137
+          },
+          "selected_unparseable": 0
+        }
+      },
+      "mean_train_minus_oof_disagreement_pp": 0.7504429701441723
+    }
+  },
+  "pairs": {
+    "B_final_structure -> C_real_relations": {
+      "paired": {
+        "overall": {
+          "n": 4755,
+          "both_correct": 4139,
+          "corrected_errors": 24,
+          "introduced_errors": 27,
+          "both_wrong": 565,
+          "net_correct_change": -3,
+          "delta_accuracy_pp": -0.06309148264984227,
+          "mcnemar_exact_p_descriptive": 0.7797679305530743,
+          "bootstrap_95ci_pp_descriptive": [
+            -0.35751840168243953,
+            0.23133543638275497
+          ]
+        },
+        "disagreement": {
+          "n": 2114,
+          "both_correct": 1498,
+          "corrected_errors": 24,
+          "introduced_errors": 27,
+          "both_wrong": 565,
+          "net_correct_change": -3,
+          "delta_accuracy_pp": -0.14191106906338694,
+          "mcnemar_exact_p_descriptive": 0.7797679305530743,
+          "bootstrap_95ci_pp_descriptive": [
+            -0.804162724692526,
+            0.47303689687795647
+          ]
+        },
+        "prediction_index_changes": 62,
+        "parsed_answer_changes": 62,
+        "bootstrap_seed": 20261029,
+        "bootstrap_repetitions": 2000
+      },
+      "folds": [
+        {
+          "n": 395,
+          "both_correct": 276,
+          "corrected_errors": 4,
+          "introduced_errors": 8,
+          "both_wrong": 107,
+          "net_correct_change": -4,
+          "delta_accuracy_pp": -1.0126582278481013,
+          "mcnemar_exact_p_descriptive": 0.3876953125,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 452,
+          "both_correct": 324,
+          "corrected_errors": 4,
+          "introduced_errors": 3,
+          "both_wrong": 121,
+          "net_correct_change": 1,
+          "delta_accuracy_pp": 0.22123893805309736,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 410,
+          "both_correct": 290,
+          "corrected_errors": 1,
+          "introduced_errors": 3,
+          "both_wrong": 116,
+          "net_correct_change": -2,
+          "delta_accuracy_pp": -0.4878048780487805,
+          "mcnemar_exact_p_descriptive": 0.625,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 434,
+          "both_correct": 303,
+          "corrected_errors": 6,
+          "introduced_errors": 4,
+          "both_wrong": 121,
+          "net_correct_change": 2,
+          "delta_accuracy_pp": 0.4608294930875576,
+          "mcnemar_exact_p_descriptive": 0.75390625,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 423,
+          "both_correct": 305,
+          "corrected_errors": 9,
+          "introduced_errors": 9,
+          "both_wrong": 100,
+          "net_correct_change": 0,
+          "delta_accuracy_pp": 0.0,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "n": 988,
+          "both_correct": 727,
+          "corrected_errors": 13,
+          "introduced_errors": 16,
+          "both_wrong": 232,
+          "net_correct_change": -3,
+          "delta_accuracy_pp": -0.30364372469635625,
+          "mcnemar_exact_p_descriptive": 0.711071103811264,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "no_relation_group_distinction": {
+          "n": 1126,
+          "both_correct": 771,
+          "corrected_errors": 11,
+          "introduced_errors": 11,
+          "both_wrong": 333,
+          "net_correct_change": 0,
+          "delta_accuracy_pp": 0.0,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "cross_final_shared_step": {
+          "n": 695,
+          "both_correct": 475,
+          "corrected_errors": 12,
+          "introduced_errors": 15,
+          "both_wrong": 193,
+          "net_correct_change": -3,
+          "delta_accuracy_pp": -0.4316546762589928,
+          "mcnemar_exact_p_descriptive": 0.7011080384254456,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      }
+    },
+    "D_mismatched_relations -> C_real_relations": {
+      "paired": {
+        "overall": {
+          "n": 4755,
+          "both_correct": 4132,
+          "corrected_errors": 31,
+          "introduced_errors": 20,
+          "both_wrong": 572,
+          "net_correct_change": 11,
+          "delta_accuracy_pp": 0.231335436382755,
+          "mcnemar_exact_p_descriptive": 0.16077960181198847,
+          "bootstrap_95ci_pp_descriptive": [
+            -0.06309148264984228,
+            0.5257623554153523
+          ]
+        },
+        "disagreement": {
+          "n": 2114,
+          "both_correct": 1491,
+          "corrected_errors": 31,
+          "introduced_errors": 20,
+          "both_wrong": 572,
+          "net_correct_change": 11,
+          "delta_accuracy_pp": 0.5203405865657521,
+          "mcnemar_exact_p_descriptive": 0.16077960181198847,
+          "bootstrap_95ci_pp_descriptive": [
+            -0.14191106906338694,
+            1.1825922421948913
+          ]
+        },
+        "prediction_index_changes": 63,
+        "parsed_answer_changes": 63,
+        "bootstrap_seed": 20261029,
+        "bootstrap_repetitions": 2000
+      },
+      "folds": [
+        {
+          "n": 395,
+          "both_correct": 270,
+          "corrected_errors": 10,
+          "introduced_errors": 6,
+          "both_wrong": 109,
+          "net_correct_change": 4,
+          "delta_accuracy_pp": 1.0126582278481013,
+          "mcnemar_exact_p_descriptive": 0.454498291015625,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 452,
+          "both_correct": 324,
+          "corrected_errors": 4,
+          "introduced_errors": 3,
+          "both_wrong": 121,
+          "net_correct_change": 1,
+          "delta_accuracy_pp": 0.22123893805309736,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 410,
+          "both_correct": 289,
+          "corrected_errors": 2,
+          "introduced_errors": 3,
+          "both_wrong": 116,
+          "net_correct_change": -1,
+          "delta_accuracy_pp": -0.24390243902439024,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 434,
+          "both_correct": 303,
+          "corrected_errors": 6,
+          "introduced_errors": 4,
+          "both_wrong": 121,
+          "net_correct_change": 2,
+          "delta_accuracy_pp": 0.4608294930875576,
+          "mcnemar_exact_p_descriptive": 0.75390625,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 423,
+          "both_correct": 305,
+          "corrected_errors": 9,
+          "introduced_errors": 4,
+          "both_wrong": 105,
+          "net_correct_change": 5,
+          "delta_accuracy_pp": 1.1820330969267139,
+          "mcnemar_exact_p_descriptive": 0.266845703125,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "n": 988,
+          "both_correct": 715,
+          "corrected_errors": 25,
+          "introduced_errors": 17,
+          "both_wrong": 231,
+          "net_correct_change": 8,
+          "delta_accuracy_pp": 0.8097165991902834,
+          "mcnemar_exact_p_descriptive": 0.27995623852893914,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "no_relation_group_distinction": {
+          "n": 1126,
+          "both_correct": 776,
+          "corrected_errors": 6,
+          "introduced_errors": 3,
+          "both_wrong": 341,
+          "net_correct_change": 3,
+          "delta_accuracy_pp": 0.2664298401420959,
+          "mcnemar_exact_p_descriptive": 0.5078125,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "cross_final_shared_step": {
+          "n": 695,
+          "both_correct": 464,
+          "corrected_errors": 23,
+          "introduced_errors": 17,
+          "both_wrong": 191,
+          "net_correct_change": 6,
+          "delta_accuracy_pp": 0.8633093525179856,
+          "mcnemar_exact_p_descriptive": 0.42959050784338615,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      }
+    },
+    "A_candidate -> B_final_structure": {
+      "paired": {
+        "overall": {
+          "n": 4755,
+          "both_correct": 3688,
+          "corrected_errors": 478,
+          "introduced_errors": 225,
+          "both_wrong": 364,
+          "net_correct_change": 253,
+          "delta_accuracy_pp": 5.320715036803365,
+          "mcnemar_exact_p_descriptive": 7.255584650302178e-22,
+          "bootstrap_95ci_pp_descriptive": [
+            4.185068349106204,
+            6.351209253417456
+          ]
+        },
+        "disagreement": {
+          "n": 2114,
+          "both_correct": 1047,
+          "corrected_errors": 478,
+          "introduced_errors": 225,
+          "both_wrong": 364,
+          "net_correct_change": 253,
+          "delta_accuracy_pp": 11.967833491012298,
+          "mcnemar_exact_p_descriptive": 7.255584650302178e-22,
+          "bootstrap_95ci_pp_descriptive": [
+            9.602649006622517,
+            14.333017975402083
+          ]
+        },
+        "prediction_index_changes": 763,
+        "parsed_answer_changes": 763,
+        "bootstrap_seed": 20261029,
+        "bootstrap_repetitions": 2000
+      },
+      "folds": [
+        {
+          "n": 395,
+          "both_correct": 195,
+          "corrected_errors": 89,
+          "introduced_errors": 39,
+          "both_wrong": 72,
+          "net_correct_change": 50,
+          "delta_accuracy_pp": 12.658227848101266,
+          "mcnemar_exact_p_descriptive": 1.1653734361916297e-05,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 452,
+          "both_correct": 226,
+          "corrected_errors": 101,
+          "introduced_errors": 52,
+          "both_wrong": 73,
+          "net_correct_change": 49,
+          "delta_accuracy_pp": 10.84070796460177,
+          "mcnemar_exact_p_descriptive": 9.176460450517718e-05,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 410,
+          "both_correct": 197,
+          "corrected_errors": 96,
+          "introduced_errors": 46,
+          "both_wrong": 71,
+          "net_correct_change": 50,
+          "delta_accuracy_pp": 12.195121951219512,
+          "mcnemar_exact_p_descriptive": 3.293875658895233e-05,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 434,
+          "both_correct": 217,
+          "corrected_errors": 90,
+          "introduced_errors": 47,
+          "both_wrong": 80,
+          "net_correct_change": 43,
+          "delta_accuracy_pp": 9.90783410138249,
+          "mcnemar_exact_p_descriptive": 0.0003001818565863565,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 423,
+          "both_correct": 212,
+          "corrected_errors": 102,
+          "introduced_errors": 41,
+          "both_wrong": 68,
+          "net_correct_change": 61,
+          "delta_accuracy_pp": 14.42080378250591,
+          "mcnemar_exact_p_descriptive": 3.52281884917927e-07,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "n": 988,
+          "both_correct": 508,
+          "corrected_errors": 235,
+          "introduced_errors": 86,
+          "both_wrong": 159,
+          "net_correct_change": 149,
+          "delta_accuracy_pp": 15.080971659919028,
+          "mcnemar_exact_p_descriptive": 3.857102357010362e-17,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "no_relation_group_distinction": {
+          "n": 1126,
+          "both_correct": 539,
+          "corrected_errors": 243,
+          "introduced_errors": 139,
+          "both_wrong": 205,
+          "net_correct_change": 104,
+          "delta_accuracy_pp": 9.236234458259325,
+          "mcnemar_exact_p_descriptive": 1.1481960032422158e-07,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "cross_final_shared_step": {
+          "n": 695,
+          "both_correct": 304,
+          "corrected_errors": 186,
+          "introduced_errors": 76,
+          "both_wrong": 129,
+          "net_correct_change": 110,
+          "delta_accuracy_pp": 15.827338129496402,
+          "mcnemar_exact_p_descriptive": 8.169383550110712e-12,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      }
+    },
+    "B_final_structure -> D_mismatched_relations": {
+      "paired": {
+        "overall": {
+          "n": 4755,
+          "both_correct": 4140,
+          "corrected_errors": 12,
+          "introduced_errors": 26,
+          "both_wrong": 577,
+          "net_correct_change": -14,
+          "delta_accuracy_pp": -0.29442691903259727,
+          "mcnemar_exact_p_descriptive": 0.03355243967962451,
+          "bootstrap_95ci_pp_descriptive": [
+            -0.5467928496319664,
+            -0.042060988433228176
+          ]
+        },
+        "disagreement": {
+          "n": 2114,
+          "both_correct": 1499,
+          "corrected_errors": 12,
+          "introduced_errors": 26,
+          "both_wrong": 577,
+          "net_correct_change": -14,
+          "delta_accuracy_pp": -0.6622516556291391,
+          "mcnemar_exact_p_descriptive": 0.03355243967962451,
+          "bootstrap_95ci_pp_descriptive": [
+            -1.229895931882687,
+            -0.0946073793755913
+          ]
+        },
+        "prediction_index_changes": 49,
+        "parsed_answer_changes": 49,
+        "bootstrap_seed": 20261029,
+        "bootstrap_repetitions": 2000
+      },
+      "folds": [
+        {
+          "n": 395,
+          "both_correct": 273,
+          "corrected_errors": 3,
+          "introduced_errors": 11,
+          "both_wrong": 108,
+          "net_correct_change": -8,
+          "delta_accuracy_pp": -2.0253164556962027,
+          "mcnemar_exact_p_descriptive": 0.057373046875,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 452,
+          "both_correct": 326,
+          "corrected_errors": 1,
+          "introduced_errors": 1,
+          "both_wrong": 124,
+          "net_correct_change": 0,
+          "delta_accuracy_pp": 0.0,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 410,
+          "both_correct": 290,
+          "corrected_errors": 2,
+          "introduced_errors": 3,
+          "both_wrong": 115,
+          "net_correct_change": -1,
+          "delta_accuracy_pp": -0.24390243902439024,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 434,
+          "both_correct": 304,
+          "corrected_errors": 3,
+          "introduced_errors": 3,
+          "both_wrong": 124,
+          "net_correct_change": 0,
+          "delta_accuracy_pp": 0.0,
+          "mcnemar_exact_p_descriptive": 1.0,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        {
+          "n": 423,
+          "both_correct": 306,
+          "corrected_errors": 3,
+          "introduced_errors": 8,
+          "both_wrong": 106,
+          "net_correct_change": -5,
+          "delta_accuracy_pp": -1.1820330969267139,
+          "mcnemar_exact_p_descriptive": 0.2265625,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      ],
+      "subsets": {
+        "relation_distinguishes_answer_groups": {
+          "n": 988,
+          "both_correct": 725,
+          "corrected_errors": 7,
+          "introduced_errors": 18,
+          "both_wrong": 238,
+          "net_correct_change": -11,
+          "delta_accuracy_pp": -1.1133603238866396,
+          "mcnemar_exact_p_descriptive": 0.043285250663757324,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "no_relation_group_distinction": {
+          "n": 1126,
+          "both_correct": 774,
+          "corrected_errors": 5,
+          "introduced_errors": 8,
+          "both_wrong": 339,
+          "net_correct_change": -3,
+          "delta_accuracy_pp": -0.2664298401420959,
+          "mcnemar_exact_p_descriptive": 0.5810546875,
+          "bootstrap_95ci_pp_descriptive": null
+        },
+        "cross_final_shared_step": {
+          "n": 695,
+          "both_correct": 475,
+          "corrected_errors": 6,
+          "introduced_errors": 15,
+          "both_wrong": 199,
+          "net_correct_change": -9,
+          "delta_accuracy_pp": -1.2949640287769784,
+          "mcnemar_exact_p_descriptive": 0.0783538818359375,
+          "bootstrap_95ci_pp_descriptive": null
+        }
+      }
+    }
+  },
+  "resources": {
+    "condition": "C_real_relations",
+    "questions": 4755,
+    "inference_with_input_loading_seconds": 2.284823333960958,
+    "peak_rss_bytes": 156614656,
+    "asset_payload_bytes": 181759,
+    "outer0_raw_replay_questions": 951,
+    "outer0_choices_and_logits_exact": true,
+    "references_loaded": false,
+    "note": "Complete Train inputs for timing only, no full-fit Accuracy reported. Local CPU, not official Test/reference-Xeon qualification.",
+    "fresh_process_wall_seconds": 2.5723652919987217
+  },
+  "completion": {
+    "new_fits": 20,
+    "fit_seconds_sum": 0.1436458327807486,
+    "feature_build_seconds_sum": 6.6952269992325455,
+    "wall_seconds": 8.339449209044687,
+    "peak_rss_bytes": 313819136,
+    "fold_records": [
+      {
+        "outer": 0,
+        "condition": "A_candidate",
+        "fit_seconds": 0.005510207964107394,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 31,
+        "function_evaluations": 36,
+        "train_bce": 0.6659151008791213,
+        "objective": 0.667281576480901,
+        "gradient_max_abs": 4.964015406134798e-07,
+        "parameter_count": 15,
+        "feature_build_seconds": 0.30756566708441824,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3133,
+            "accuracy": 82.36067297581494
+          },
+          "disagreement": {
+            "n": 1719,
+            "correct": 1048,
+            "accuracy": 60.96567771960442
+          },
+          "non_disagreement": {
+            "n": 2085,
+            "correct": 2085,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1763,
+            "correct": 1763,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 485,
+            "accuracy": 82.20338983050847
+          },
+          "multiple_correct_candidates": {
+            "n": 3225,
+            "correct": 2818,
+            "accuracy": 87.37984496124031
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 0,
+        "condition": "B_final_structure",
+        "fit_seconds": 0.0072890829760581255,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 37,
+        "function_evaluations": 43,
+        "train_bce": 0.5159681654482711,
+        "objective": 0.5218575993276289,
+        "gradient_max_abs": 1.1191571462274008e-07,
+        "parameter_count": 24,
+        "feature_build_seconds": 0.31078754202462733,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3331,
+            "accuracy": 87.56572029442692
+          },
+          "disagreement": {
+            "n": 1719,
+            "correct": 1246,
+            "accuracy": 72.48400232693426
+          },
+          "non_disagreement": {
+            "n": 2085,
+            "correct": 2085,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1763,
+            "correct": 1763,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 492,
+            "accuracy": 83.38983050847457
+          },
+          "multiple_correct_candidates": {
+            "n": 3225,
+            "correct": 3180,
+            "accuracy": 98.6046511627907
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 0,
+        "condition": "C_real_relations",
+        "fit_seconds": 0.007740249973721802,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 39,
+        "function_evaluations": 44,
+        "train_bce": 0.5127880202760378,
+        "objective": 0.5187955166989852,
+        "gradient_max_abs": 5.002028939493493e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.31158766604494303,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3333,
+            "accuracy": 87.61829652996846
+          },
+          "disagreement": {
+            "n": 1719,
+            "correct": 1248,
+            "accuracy": 72.60034904013962
+          },
+          "non_disagreement": {
+            "n": 2085,
+            "correct": 2085,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1763,
+            "correct": 1763,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 495,
+            "accuracy": 83.89830508474576
+          },
+          "multiple_correct_candidates": {
+            "n": 3225,
+            "correct": 3184,
+            "accuracy": 98.72868217054264
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 0,
+        "condition": "D_mismatched_relations",
+        "fit_seconds": 0.007321165991015732,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 37,
+        "function_evaluations": 42,
+        "train_bce": 0.5136577804585426,
+        "objective": 0.5197038393610808,
+        "gradient_max_abs": 3.973745578886821e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.3942606250056997,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3332,
+            "accuracy": 87.59200841219769
+          },
+          "disagreement": {
+            "n": 1719,
+            "correct": 1247,
+            "accuracy": 72.54217568353694
+          },
+          "non_disagreement": {
+            "n": 2085,
+            "correct": 2085,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1763,
+            "correct": 1763,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 491,
+            "accuracy": 83.22033898305085
+          },
+          "multiple_correct_candidates": {
+            "n": 3225,
+            "correct": 3179,
+            "accuracy": 98.57364341085271
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 1,
+        "condition": "A_candidate",
+        "fit_seconds": 0.004907833994366229,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 30,
+        "function_evaluations": 34,
+        "train_bce": 0.6695672385627123,
+        "objective": 0.6707129553430946,
+        "gradient_max_abs": 1.7009911267663663e-07,
+        "parameter_count": 15,
+        "feature_build_seconds": 0.3071297500282526,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3165,
+            "accuracy": 83.2018927444795
+          },
+          "disagreement": {
+            "n": 1662,
+            "correct": 1023,
+            "accuracy": 61.55234657039711
+          },
+          "non_disagreement": {
+            "n": 2142,
+            "correct": 2142,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1822,
+            "correct": 1822,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 593,
+            "correct": 477,
+            "accuracy": 80.43844856661046
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 2861,
+            "accuracy": 88.22078322540857
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 1,
+        "condition": "B_final_structure",
+        "fit_seconds": 0.006842250004410744,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 37,
+        "function_evaluations": 42,
+        "train_bce": 0.5185546817113746,
+        "objective": 0.5245152672369016,
+        "gradient_max_abs": 3.431768276244626e-07,
+        "parameter_count": 24,
+        "feature_build_seconds": 0.31543366599362344,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3346,
+            "accuracy": 87.96004206098843
+          },
+          "disagreement": {
+            "n": 1662,
+            "correct": 1204,
+            "accuracy": 72.44283995186522
+          },
+          "non_disagreement": {
+            "n": 2142,
+            "correct": 2142,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1822,
+            "correct": 1822,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 593,
+            "correct": 501,
+            "accuracy": 84.48566610455312
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3195,
+            "accuracy": 98.51988899167438
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 1,
+        "condition": "C_real_relations",
+        "fit_seconds": 0.008654624922201037,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 47,
+        "function_evaluations": 50,
+        "train_bce": 0.5152783609719545,
+        "objective": 0.5213906902343559,
+        "gradient_max_abs": 1.8920747959973866e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.3137584999203682,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3338,
+            "accuracy": 87.7497371188223
+          },
+          "disagreement": {
+            "n": 1662,
+            "correct": 1196,
+            "accuracy": 71.96149217809868
+          },
+          "non_disagreement": {
+            "n": 2142,
+            "correct": 2142,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1822,
+            "correct": 1822,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 593,
+            "correct": 499,
+            "accuracy": 84.14839797639124
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3197,
+            "accuracy": 98.58156028368795
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 1,
+        "condition": "D_mismatched_relations",
+        "fit_seconds": 0.008132750052027404,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 42,
+        "function_evaluations": 48,
+        "train_bce": 0.5168196584527932,
+        "objective": 0.5229018495771353,
+        "gradient_max_abs": 8.807575855142649e-08,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.39288016699720174,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3341,
+            "accuracy": 87.8286014721346
+          },
+          "disagreement": {
+            "n": 1662,
+            "correct": 1199,
+            "accuracy": 72.14199759326114
+          },
+          "non_disagreement": {
+            "n": 2142,
+            "correct": 2142,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1822,
+            "correct": 1822,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 593,
+            "correct": 496,
+            "accuracy": 83.6424957841484
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3195,
+            "accuracy": 98.51988899167438
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 2,
+        "condition": "A_candidate",
+        "fit_seconds": 0.004599291947670281,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 28,
+        "function_evaluations": 31,
+        "train_bce": 0.6667867446789318,
+        "objective": 0.6679613430531816,
+        "gradient_max_abs": 1.8984886415060974e-07,
+        "parameter_count": 15,
+        "feature_build_seconds": 0.31095912505406886,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3120,
+            "accuracy": 82.01892744479495
+          },
+          "disagreement": {
+            "n": 1704,
+            "correct": 1020,
+            "accuracy": 59.859154929577464
+          },
+          "non_disagreement": {
+            "n": 2100,
+            "correct": 2100,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 586,
+            "correct": 475,
+            "accuracy": 81.0580204778157
+          },
+          "multiple_correct_candidates": {
+            "n": 3237,
+            "correct": 2823,
+            "accuracy": 87.21037998146431
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 2,
+        "condition": "B_final_structure",
+        "fit_seconds": 0.006708917091600597,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 36,
+        "function_evaluations": 39,
+        "train_bce": 0.5111984401456962,
+        "objective": 0.517067593752852,
+        "gradient_max_abs": 2.8708597664991835e-07,
+        "parameter_count": 24,
+        "feature_build_seconds": 0.31066529103554785,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3345,
+            "accuracy": 87.93375394321767
+          },
+          "disagreement": {
+            "n": 1704,
+            "correct": 1245,
+            "accuracy": 73.06338028169014
+          },
+          "non_disagreement": {
+            "n": 2100,
+            "correct": 2100,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 586,
+            "correct": 489,
+            "accuracy": 83.44709897610922
+          },
+          "multiple_correct_candidates": {
+            "n": 3237,
+            "correct": 3188,
+            "accuracy": 98.48625270312017
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 2,
+        "condition": "C_real_relations",
+        "fit_seconds": 0.008238374954089522,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 41,
+        "function_evaluations": 46,
+        "train_bce": 0.5072944159772396,
+        "objective": 0.5134720830986306,
+        "gradient_max_abs": 1.5843087295173237e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.31214145896956325,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3346,
+            "accuracy": 87.96004206098843
+          },
+          "disagreement": {
+            "n": 1704,
+            "correct": 1246,
+            "accuracy": 73.12206572769954
+          },
+          "non_disagreement": {
+            "n": 2100,
+            "correct": 2100,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 586,
+            "correct": 491,
+            "accuracy": 83.78839590443685
+          },
+          "multiple_correct_candidates": {
+            "n": 3237,
+            "correct": 3192,
+            "accuracy": 98.60982391102873
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 2,
+        "condition": "D_mismatched_relations",
+        "fit_seconds": 0.00825395795982331,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 43,
+        "function_evaluations": 45,
+        "train_bce": 0.5091016446596188,
+        "objective": 0.5150955683824554,
+        "gradient_max_abs": 7.122433749989082e-08,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.4025033339858055,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3333,
+            "accuracy": 87.61829652996846
+          },
+          "disagreement": {
+            "n": 1704,
+            "correct": 1233,
+            "accuracy": 72.35915492957747
+          },
+          "non_disagreement": {
+            "n": 2100,
+            "correct": 2100,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 586,
+            "correct": 485,
+            "accuracy": 82.76450511945393
+          },
+          "multiple_correct_candidates": {
+            "n": 3237,
+            "correct": 3184,
+            "accuracy": 98.36268149521162
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 3,
+        "condition": "A_candidate",
+        "fit_seconds": 0.005283541977405548,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 32,
+        "function_evaluations": 36,
+        "train_bce": 0.6645582925710709,
+        "objective": 0.6657457861376566,
+        "gradient_max_abs": 1.3061587852118304e-07,
+        "parameter_count": 15,
+        "feature_build_seconds": 0.3079097910085693,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3152,
+            "accuracy": 82.86014721345951
+          },
+          "disagreement": {
+            "n": 1680,
+            "correct": 1028,
+            "accuracy": 61.19047619047619
+          },
+          "non_disagreement": {
+            "n": 2124,
+            "correct": 2124,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1817,
+            "correct": 1817,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 585,
+            "correct": 476,
+            "accuracy": 81.36752136752136
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 2853,
+            "accuracy": 87.9740980573543
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 3,
+        "condition": "B_final_structure",
+        "fit_seconds": 0.007412082981318235,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 37,
+        "function_evaluations": 41,
+        "train_bce": 0.5135313584484977,
+        "objective": 0.5195840052061905,
+        "gradient_max_abs": 7.134054470802655e-07,
+        "parameter_count": 24,
+        "feature_build_seconds": 0.31217379099689424,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3342,
+            "accuracy": 87.85488958990537
+          },
+          "disagreement": {
+            "n": 1680,
+            "correct": 1218,
+            "accuracy": 72.5
+          },
+          "non_disagreement": {
+            "n": 2124,
+            "correct": 2124,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1817,
+            "correct": 1817,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 585,
+            "correct": 487,
+            "accuracy": 83.24786324786325
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3198,
+            "accuracy": 98.61239592969473
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 3,
+        "condition": "C_real_relations",
+        "fit_seconds": 0.008675167104229331,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 39,
+        "function_evaluations": 47,
+        "train_bce": 0.5096332992274714,
+        "objective": 0.5158665503717258,
+        "gradient_max_abs": 3.831871513840842e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.3259834999917075,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3337,
+            "accuracy": 87.72344900105152
+          },
+          "disagreement": {
+            "n": 1680,
+            "correct": 1213,
+            "accuracy": 72.20238095238095
+          },
+          "non_disagreement": {
+            "n": 2124,
+            "correct": 2124,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1817,
+            "correct": 1817,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 585,
+            "correct": 486,
+            "accuracy": 83.07692307692308
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3199,
+            "accuracy": 98.6432315757015
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 3,
+        "condition": "D_mismatched_relations",
+        "fit_seconds": 0.008046292001381516,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 45,
+        "function_evaluations": 47,
+        "train_bce": 0.5111259152815776,
+        "objective": 0.5173742988283805,
+        "gradient_max_abs": 1.6035746665298348e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.41748462500981987,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3334,
+            "accuracy": 87.64458464773922
+          },
+          "disagreement": {
+            "n": 1680,
+            "correct": 1210,
+            "accuracy": 72.02380952380952
+          },
+          "non_disagreement": {
+            "n": 2124,
+            "correct": 2124,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1817,
+            "correct": 1817,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 585,
+            "correct": 482,
+            "accuracy": 82.3931623931624
+          },
+          "multiple_correct_candidates": {
+            "n": 3243,
+            "correct": 3197,
+            "accuracy": 98.58156028368795
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 4,
+        "condition": "A_candidate",
+        "fit_seconds": 0.0052610409911721945,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 32,
+        "function_evaluations": 35,
+        "train_bce": 0.6659963426887928,
+        "objective": 0.6673776161502903,
+        "gradient_max_abs": 3.018522809858804e-07,
+        "parameter_count": 15,
+        "feature_build_seconds": 0.30861508403904736,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3143,
+            "accuracy": 82.6235541535226
+          },
+          "disagreement": {
+            "n": 1691,
+            "correct": 1030,
+            "accuracy": 60.91070372560615
+          },
+          "non_disagreement": {
+            "n": 2113,
+            "correct": 2113,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 486,
+            "accuracy": 82.37288135593221
+          },
+          "multiple_correct_candidates": {
+            "n": 3228,
+            "correct": 2834,
+            "accuracy": 87.79429987608427
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 4,
+        "condition": "B_final_structure",
+        "fit_seconds": 0.007138291955925524,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 38,
+        "function_evaluations": 43,
+        "train_bce": 0.5228662701642839,
+        "objective": 0.528679918815459,
+        "gradient_max_abs": 3.2974591962975017e-07,
+        "parameter_count": 24,
+        "feature_build_seconds": 0.3123366660438478,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3327,
+            "accuracy": 87.46056782334385
+          },
+          "disagreement": {
+            "n": 1691,
+            "correct": 1214,
+            "accuracy": 71.79183914843289
+          },
+          "non_disagreement": {
+            "n": 2113,
+            "correct": 2113,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 491,
+            "accuracy": 83.22033898305085
+          },
+          "multiple_correct_candidates": {
+            "n": 3228,
+            "correct": 3185,
+            "accuracy": 98.66790582403965
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 4,
+        "condition": "C_real_relations",
+        "fit_seconds": 0.008039957960136235,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 41,
+        "function_evaluations": 46,
+        "train_bce": 0.5194750400631016,
+        "objective": 0.5254606945631377,
+        "gradient_max_abs": 3.6294110803596416e-07,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.31366337498184294,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3322,
+            "accuracy": 87.32912723449002
+          },
+          "disagreement": {
+            "n": 1691,
+            "correct": 1209,
+            "accuracy": 71.49615612063867
+          },
+          "non_disagreement": {
+            "n": 2113,
+            "correct": 2113,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 490,
+            "accuracy": 83.05084745762711
+          },
+          "multiple_correct_candidates": {
+            "n": 3228,
+            "correct": 3186,
+            "accuracy": 98.69888475836431
+          },
+          "selected_unparseable": 0
+        }
+      },
+      {
+        "outer": 4,
+        "condition": "D_mismatched_relations",
+        "fit_seconds": 0.009590749978087842,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 44,
+        "function_evaluations": 49,
+        "train_bce": 0.5207520904166322,
+        "objective": 0.526697803201635,
+        "gradient_max_abs": 8.651621535588766e-08,
+        "parameter_count": 30,
+        "feature_build_seconds": 0.40738737501669675,
+        "training_metrics": {
+          "overall": {
+            "n": 3804,
+            "correct": 3329,
+            "accuracy": 87.51314405888539
+          },
+          "disagreement": {
+            "n": 1691,
+            "correct": 1216,
+            "accuracy": 71.91011235955057
+          },
+          "non_disagreement": {
+            "n": 2113,
+            "correct": 2113,
+            "accuracy": 100.0
+          },
+          "all_four_correct": {
+            "n": 1783,
+            "correct": 1783,
+            "accuracy": 100.0
+          },
+          "zero_correct": {
+            "n": 0,
+            "correct": 0,
+            "accuracy": null
+          },
+          "some_unparseable": {
+            "n": 590,
+            "correct": 489,
+            "accuracy": 82.88135593220339
+          },
+          "multiple_correct_candidates": {
+            "n": 3228,
+            "correct": 3186,
+            "accuracy": 98.69888475836431
+          },
+          "selected_unparseable": 0
+        }
+      }
+    ],
+    "Test_accessed": false,
+    "Official_Validation_accessed": false,
+    "additional_conditions": 0
+  },
+  "coverage": {
+    "candidates": {
+      "n": 19020,
+      "parsed_computation": 14606,
+      "verified_computation": 14504,
+      "strict_intermediate": 10071,
+      "strict_false": 55
+    },
+    "overall": {
+      "n": 4755,
+      "disagreement": 2114,
+      "any_strict_intermediate": 3598,
+      "shared_verified": 2662,
+      "shared_same_final": 2418,
+      "shared_different_final": 695,
+      "verified_vs_false_conflict": 17,
+      "same_result_different_path": 386,
+      "candidate_discriminative": 1985,
+      "group_discriminative": 988,
+      "equal_frequency_group_discriminative": 194
+    },
+    "disagreement": {
+      "n": 2114,
+      "disagreement": 2114,
+      "any_strict_intermediate": 1579,
+      "shared_verified": 1034,
+      "shared_same_final": 790,
+      "shared_different_final": 695,
+      "verified_vs_false_conflict": 17,
+      "same_result_different_path": 183,
+      "candidate_discriminative": 995,
+      "group_discriminative": 988,
+      "equal_frequency_group_discriminative": 194
+    },
+    "folds": [
+      {
+        "outer": 0,
+        "overall": {
+          "n": 951,
+          "disagreement": 395,
+          "any_strict_intermediate": 725,
+          "shared_verified": 546,
+          "shared_same_final": 499,
+          "shared_different_final": 132,
+          "verified_vs_false_conflict": 2,
+          "same_result_different_path": 69,
+          "candidate_discriminative": 394,
+          "group_discriminative": 184,
+          "equal_frequency_group_discriminative": 43
+        },
+        "disagreement": {
+          "n": 395,
+          "disagreement": 395,
+          "any_strict_intermediate": 290,
+          "shared_verified": 195,
+          "shared_same_final": 148,
+          "shared_different_final": 132,
+          "verified_vs_false_conflict": 2,
+          "same_result_different_path": 32,
+          "candidate_discriminative": 186,
+          "group_discriminative": 184,
+          "equal_frequency_group_discriminative": 43
+        }
+      },
+      {
+        "outer": 1,
+        "overall": {
+          "n": 951,
+          "disagreement": 452,
+          "any_strict_intermediate": 723,
+          "shared_verified": 550,
+          "shared_same_final": 502,
+          "shared_different_final": 155,
+          "verified_vs_false_conflict": 6,
+          "same_result_different_path": 72,
+          "candidate_discriminative": 417,
+          "group_discriminative": 226,
+          "equal_frequency_group_discriminative": 31
+        },
+        "disagreement": {
+          "n": 452,
+          "disagreement": 452,
+          "any_strict_intermediate": 330,
+          "shared_verified": 231,
+          "shared_same_final": 183,
+          "shared_different_final": 155,
+          "verified_vs_false_conflict": 6,
+          "same_result_different_path": 31,
+          "candidate_discriminative": 226,
+          "group_discriminative": 226,
+          "equal_frequency_group_discriminative": 31
+        }
+      },
+      {
+        "outer": 2,
+        "overall": {
+          "n": 951,
+          "disagreement": 410,
+          "any_strict_intermediate": 711,
+          "shared_verified": 523,
+          "shared_same_final": 473,
+          "shared_different_final": 139,
+          "verified_vs_false_conflict": 3,
+          "same_result_different_path": 73,
+          "candidate_discriminative": 388,
+          "group_discriminative": 196,
+          "equal_frequency_group_discriminative": 30
+        },
+        "disagreement": {
+          "n": 410,
+          "disagreement": 410,
+          "any_strict_intermediate": 315,
+          "shared_verified": 207,
+          "shared_same_final": 157,
+          "shared_different_final": 139,
+          "verified_vs_false_conflict": 3,
+          "same_result_different_path": 31,
+          "candidate_discriminative": 198,
+          "group_discriminative": 196,
+          "equal_frequency_group_discriminative": 30
+        }
+      },
+      {
+        "outer": 3,
+        "overall": {
+          "n": 951,
+          "disagreement": 434,
+          "any_strict_intermediate": 715,
+          "shared_verified": 497,
+          "shared_same_final": 447,
+          "shared_different_final": 138,
+          "verified_vs_false_conflict": 5,
+          "same_result_different_path": 84,
+          "candidate_discriminative": 379,
+          "group_discriminative": 185,
+          "equal_frequency_group_discriminative": 47
+        },
+        "disagreement": {
+          "n": 434,
+          "disagreement": 434,
+          "any_strict_intermediate": 325,
+          "shared_verified": 194,
+          "shared_same_final": 144,
+          "shared_different_final": 138,
+          "verified_vs_false_conflict": 5,
+          "same_result_different_path": 45,
+          "candidate_discriminative": 186,
+          "group_discriminative": 185,
+          "equal_frequency_group_discriminative": 47
+        }
+      },
+      {
+        "outer": 4,
+        "overall": {
+          "n": 951,
+          "disagreement": 423,
+          "any_strict_intermediate": 724,
+          "shared_verified": 546,
+          "shared_same_final": 497,
+          "shared_different_final": 131,
+          "verified_vs_false_conflict": 1,
+          "same_result_different_path": 88,
+          "candidate_discriminative": 407,
+          "group_discriminative": 197,
+          "equal_frequency_group_discriminative": 43
+        },
+        "disagreement": {
+          "n": 423,
+          "disagreement": 423,
+          "any_strict_intermediate": 319,
+          "shared_verified": 207,
+          "shared_same_final": 158,
+          "shared_different_final": 131,
+          "verified_vs_false_conflict": 1,
+          "same_result_different_path": 44,
+          "candidate_discriminative": 199,
+          "group_discriminative": 197,
+          "equal_frequency_group_discriminative": 43
+        }
+      }
+    ],
+    "checks": {
+      "passed": true,
+      "Candidate_code_executed": false,
+      "arithmetic_calls": "restricted AST/Fraction only",
+      "commutative_associative_identity": true,
+      "different_path_not_equated": true,
+      "unknown_syntax_abstains": true
+    },
+    "labels_loaded": false,
+    "extraction_seconds": 2.324830707977526,
+    "go_coverage_rule": "At least 100 and at least 10% Disagreement questions have distinct group relation vectors, and at least 100 have cross-final verified expression identity.",
+    "go_coverage": true
+  },
+  "quality_review": {
+    "before_any_model_fit": true,
+    "references_or_correctness_labels_read": false,
+    "arithmetic_sample": {
+      "seed": 20261038,
+      "n": 32,
+      "correct_numeric_statement_extractions": 32,
+      "failed_items": []
+    },
+    "relation_sample": {
+      "seed": 20261041,
+      "n": 8,
+      "definition_consistent": 8,
+      "conflicts_checked": [
+        "9+9+18+13:49 vs 59",
+        "2*40+8:88 vs 96"
+      ],
+      "different_paths_not_called_conflicts": 2
+    },
+    "go_quality": true,
+    "scope": "Limited input-only numeric/canonicalization review. No semantic entity/unit equivalence, recall or selection-value guarantee.",
+    "initial_failed_sample_preserved": "../quality_sample.json; UNIT_SCOPE_FIX.json"
+  },
+  "actual_OOF_relation_group_distinction": 988,
+  "limitations": [
+    "Fixed one parser/linear-model/negative-control seed; historically exposed Train/folds.",
+    "No Embedding- or Final-Number-conditioned increment was fitted; no 1730 fusion or oracle selection.",
+    "Input arithmetic identity does not verify semantic role or independent reasoning.",
+    "Candidate packet mismatch preserves marginals but changes joint dependence with base features and labels.",
+    "Question-level bootstrap descriptive; shared training folds/adaptive historical research not corrected."
+  ]
+}
