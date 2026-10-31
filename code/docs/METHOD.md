@@ -12,4 +12,4 @@ Direct uses standardized 1024 embedding + 20 format/final inputs. Preprocessing 
 
 Historical Train fivefold disagreement OOF on three partitions: 1736, 1733, 1737 / 2114. These historically exposed OOF results are not independent generalization evidence for the full-Train checkpoint. Existing official Validation is 746/798 overall, 303/355 disagreement. The subsequently authorized one-shot Official Test is 387/467 (82.86937901498929%); evaluation artifacts are in evaluation/test/. No model adjustment followed.
 
-A prior fixed-protocol engineering reproduction reproduced all exported arrays bitwise in the pinned local environment (`records/training_reproduction.json`). This packaging batch performs no training. Cross-platform bitwise equality is not guaranteed.
+A prior fixed-protocol engineering reproduction reproduced all exported arrays bitwise in the pinned local environment (`records/training_reproduction.json`). Cross-platform bitwise equality is not guaranteed.

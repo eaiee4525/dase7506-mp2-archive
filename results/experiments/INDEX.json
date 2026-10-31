@@ -2,61 +2,61 @@
   {
     "source": "phase1_formal_20261025/results.json",
     "source_sha256": "b8dbe4db3dc586c49dbdb95e74926729edc98019411afbe43d5a6b6239d58ee3",
-    "public_aggregate": "experiments/evidence_01.json"
+    "public_aggregate": "results/experiments/evidence_01.json"
   },
   {
     "source": "phase4_p1_generalization_20261029/run_001/results/summary.json",
     "source_sha256": "12da2d68943e0612488173721752996295ef04599d196069f07f6c762105c21c",
-    "public_aggregate": "experiments/evidence_02.json"
+    "public_aggregate": "results/experiments/evidence_02.json"
   },
   {
     "source": "phase5_format_final_20261029/results/summary.json",
     "source_sha256": "ee582a266694297d4211b0043432dfe9bda8fc67caac345098264b75e8d78651",
-    "public_aggregate": "experiments/evidence_03.json"
+    "public_aggregate": "results/experiments/evidence_03.json"
   },
   {
     "source": "phase6_decision_closure_20261029/results/summary.json",
     "source_sha256": "192adcd1aa92aff0a4e6b3ecd5a7b4e73f7878498a2ee030c202a6f9c094aefe",
-    "public_aggregate": "experiments/evidence_04.json"
+    "public_aggregate": "results/experiments/evidence_04.json"
   },
   {
     "source": "phase13_objective_diversity_20261030/results.json",
     "source_sha256": "c427f7049ef09c484db19c73f5a01f7ec8b392ef7712a96ba6d0ed6af268bd48",
-    "public_aggregate": "experiments/evidence_05.json"
+    "public_aggregate": "results/experiments/evidence_05.json"
   },
   {
     "source": "phase13_objective_diversity_20261030/repartition/results.json",
     "source_sha256": "e12f564d3e1cd7ae71d1207e8b6a02e220a6abf3bacf4f2c9ea4f37c0998e03b",
-    "public_aggregate": "experiments/evidence_06.json"
+    "public_aggregate": "results/experiments/evidence_06.json"
   },
   {
     "source": "phase14_predictive_diversity_20261030/direct/original/results.json",
     "source_sha256": "c1c58900db1bdcd6b7fe061026f0105be0657429ea9ce84cdc6083d747a04e83",
-    "public_aggregate": "experiments/evidence_07.json"
+    "public_aggregate": "results/experiments/evidence_07.json"
   },
   {
     "source": "phase14_predictive_diversity_20261030/direct/repartition/results.json",
     "source_sha256": "bb4ab95d1acd2cfecf35b52e196b490a6ea810776eddbc14171deaec314b721d",
-    "public_aggregate": "experiments/evidence_08.json"
+    "public_aggregate": "results/experiments/evidence_08.json"
   },
   {
     "source": "phase14_predictive_diversity_20261030/third/direct/results.json",
     "source_sha256": "8c2a77dd5597cfa5b3d603ef8bc9972afba1fddc4ebc70c90d20b7650b737c5f",
-    "public_aggregate": "experiments/evidence_09.json"
+    "public_aggregate": "results/experiments/evidence_09.json"
   },
   {
     "source": "phase10_question_numeric_controls_20261029/run_001/results/summary.json",
     "source_sha256": "4a54313cb709045edc58ea36115cd37da6f2cb12ded190fddd4c5013def03e1a",
-    "public_aggregate": "experiments/evidence_10.json"
+    "public_aggregate": "results/experiments/evidence_10.json"
   },
   {
     "source": "phase8_candidate_relations_20261029/run_001/results/summary.json",
     "source_sha256": "4ec55f930a3286deb317ca135ee42d0514c8a553caacd07f60f6946897194670",
-    "public_aggregate": "experiments/evidence_11.json"
+    "public_aggregate": "results/experiments/evidence_11.json"
   },
   {
     "source": "phase7_context_negative_control_20261029/run_001/results/summary.json",
     "source_sha256": "45e38ac941de51bc4197299f0358ed8b771db80ddcb767b424452ddd4d4414e6",
-    "public_aggregate": "experiments/evidence_12.json"
+    "public_aggregate": "results/experiments/evidence_12.json"
   }
 ]
