@@ -1,0 +1,43 @@
+{
+  "official_score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 387,
+    "n": 467,
+    "accuracy": 82.86937901498929,
+    "scoring_seconds": 0.013212583027780056
+  },
+  "prediction_sha256": "dea0fa8e2278c54ef0cdf0eee76b5526494a771edc5aa79f65bbd1b18182e613",
+  "score_sha256": "60a2a298121340296a7279eea9b0113a5736704a477ca3c99cd4dc5d351e8b79",
+  "prediction_invocations": 1,
+  "official_score_invocations": 1,
+  "other_candidate_test_invocations": 0,
+  "prediction_reference_open_events": 0,
+  "score_reference_open_events": 2,
+  "training_or_tuning": false,
+  "protected_files_unchanged": 65,
+  "prediction_unchanged_after_scoring": true,
+  "fresh_prediction_seconds": 0.5642510829493403,
+  "fresh_independent_score_seconds": 0.07588383299298584,
+  "fresh_total_seconds": 0.6401349159423262,
+  "timing_scope": "Process launch to termination, including imports, official bank hash checks/loading, all assets/features/experts, guard, independent scorer and log writes.",
+  "numeric_thread_configuration": 1,
+  "evaluation_processes_sequential": true,
+  "os_threads_sampled_this_run": false,
+  "reference_xeon_measured": false,
+  "local_hardware": {
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "architecture": "arm64",
+    "processor": "arm",
+    "logical_cpus": 10
+  },
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "max_child_peak_rss_bytes": 137969664,
+  "asset_uncompressed_bytes": 61839,
+  "asset_disk_bytes": 59360
+}

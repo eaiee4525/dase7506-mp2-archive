@@ -1,0 +1,13 @@
+{
+  "version": "phase14-full-train-v1",
+  "protocol": "dase7506-mp2-open-hard-verifier-v5",
+  "weights": {
+    "BF": 0.25,
+    "CF": 0.25,
+    "Direct_LME": 0.5
+  },
+  "pooling": "lme",
+  "temperature": 1,
+  "numeric_threads": 1,
+  "input": "bank + arrays.embeddings + this checkpoint only"
+}

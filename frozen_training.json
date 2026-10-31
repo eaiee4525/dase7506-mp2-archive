@@ -1,0 +1,73 @@
+{
+  "version": "phase14-full-train-v1",
+  "configs": {
+    "B": {
+      "package": "P1",
+      "seed": 20261029,
+      "learning_rate": 0.001,
+      "batch_questions": 128,
+      "decode": "group_mean",
+      "loss_scale": "one",
+      "id": "bce_linear_dis_w900",
+      "objective": "bce_valid",
+      "capacity": "linear",
+      "population": "disagreement",
+      "l2": 0.0001,
+      "updates": 900,
+      "reuse": null
+    },
+    "C": {
+      "seed": 20261029,
+      "l2": 0.0001,
+      "updates": 900,
+      "learning_rate": 0.001,
+      "batch_questions": 128,
+      "decode": "group_mean",
+      "population": "all",
+      "id": "P1_group_ce_linear",
+      "package": "P1",
+      "capacity": "linear",
+      "objective": "group_ce"
+    },
+    "F": {
+      "seed": 20261029,
+      "l2": 0.0001,
+      "updates": 900,
+      "learning_rate": 0.001,
+      "batch_questions": 128,
+      "decode": "group_mean",
+      "population": "all",
+      "id": "P3_format_final",
+      "package": "P3",
+      "condition": "format_final",
+      "objective": "bce_valid",
+      "hash_features": 8192,
+      "text_projection": 32,
+      "head_width": 32
+    }
+  },
+  "calibration_seed": 20261130,
+  "calibration_folds": 3,
+  "direct": {
+    "l2": 0.01,
+    "frequency_center": 1,
+    "frequency_l2": 0.01,
+    "mean_then_lme": true,
+    "maxiter": 300,
+    "gtol": 1e-06,
+    "ftol": 1e-10
+  },
+  "inference": {
+    "version": "phase14-full-train-v1",
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "weights": {
+      "BF": 0.25,
+      "CF": 0.25,
+      "Direct_LME": 0.5
+    },
+    "pooling": "lme",
+    "temperature": 1,
+    "numeric_threads": 1,
+    "input": "bank + arrays.embeddings + this checkpoint only"
+  }
+}
